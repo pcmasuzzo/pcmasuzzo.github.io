@@ -4,4 +4,5 @@ title: "pcmasuzzo launches this to the moon!"
 date: 2016-09-16
 ---
 
-Well. Finally got around to putting this together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+I finally got around to putting this together. Great thing about it - powered by [Jekyll](http://jekyllrb.com), plus I can use Markdown to author my posts. 
+Credit to [this](http://jmcglone.com/guides/github-pages/.) amazing guide!

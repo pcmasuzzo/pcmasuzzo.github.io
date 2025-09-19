@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "I GOT UP"
-permalink: /projects/i-got-up/
+permalink: /pages/i-got-up/
 ---
 
 # I GOT UP

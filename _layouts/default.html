@@ -110,6 +110,7 @@
                 box-shadow: 0 10px 27px rgba(0,0,0,0.05);
                 padding: 20px 0;
                 gap: 0;
+                z-index: 1000;
             }
             
             .nav-menu.active {
@@ -169,6 +170,7 @@
             margin-top: 60px;
             color: #666;
             border-top: 1px solid #eee;
+            min-height: 100px;
         }
         
         /* Responsive */
@@ -191,15 +193,13 @@
     <header>
         <div class="nav-container">
             <a href="{{ site.baseurl }}/" class="logo">{{ site.title }}</a>
-            
             <nav>
                 <ul class="nav-menu">
                     <li><a href="{{ site.baseurl }}/newsletter/">newsletter</a></li>
                     <li><a href="{{ site.baseurl }}/projects/">projects</a></li>
                     <li><a href="{{ site.baseurl }}/about/">about me</a></li>
                 </ul>
-                
-                <div class="hamburger">
+                <div class="hamburger" aria-expanded="false">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -217,24 +217,24 @@
     </footer>
     
     <script>
-        // Hamburger menu toggle
         const hamburger = document.querySelector('.hamburger');
         const navMenu = document.querySelector('.nav-menu');
         
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navMenu.classList.toggle('active');
+            const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
+            hamburger.setAttribute('aria-expanded', !expanded);
         });
         
-        // Close menu when clicking on a link (mobile)
         document.querySelectorAll('.nav-menu a').forEach(link => {
-            link.addEventListener('click', () => {
+            link.addEventListener('click', (e) => {
                 hamburger.classList.remove('active');
                 navMenu.classList.remove('active');
+                e.stopPropagation(); // Prevent event bubbling
             });
         });
         
-        // Close menu when clicking outside (mobile)
         document.addEventListener('click', (e) => {
             if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
                 hamburger.classList.remove('active');

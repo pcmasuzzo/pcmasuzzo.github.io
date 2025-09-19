@@ -1,0 +1,11 @@
+title: paola chiara masuzzo
+description: un sito dove depositare cose prima che si perdano
+url: "https://pcmasuzzo.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Social links (optional)
+github_username: pcmasuzzo

@@ -10,9 +10,9 @@ This is my attempt number 78, will it be the lucky time?
 ## what are you going to find here
 I honestly have absolutely no idea.
 
-- **newsletter**: I write on Substack, though mostly in italian! 
+- **newsletter**: I write on substack, though mostly in italian
 - **projects**: sometimes I do artistic things (blushing profoundly)
-- **about**: maybe we can be friends!
+- **about**: coming soon (?)
 
 ---
 

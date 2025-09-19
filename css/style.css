@@ -13,24 +13,24 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .gallery-item img {
-    width: 100%;
+    width: 75%;  /* Initially reduce images to 75% */
     height: auto;
     display: block;
     border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
+/* Hover effect to scale up the image */
 .gallery-item:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.gallery-item img {
-    transition: transform 0.3s ease;
-}
-
-.gallery-item:hover img {
+/* On hover, scale the image */
+.gallery-item img:hover {
     transform: scale(1.1);
 }

@@ -7,7 +7,7 @@ permalink: /pages/i-got-up/
 # I GOT UP
 
 Welcome to the "I GOT UP" project. I started this project around june 2025. 
-The philosohy behind it is that "**today is today**" and that only this moment really matters.
+The philosophy behind it is that "**today is today**" and that only this moment really matters.
 
 I explain the project in [this newsletter](https://paolamasuzzo.substack.com/p/oggi-e-oggi).
 In short, I reproduced the [I GOT UP](https://flashbak.com/creativity-from-boredom-and-routine-on-kawaras-i-got-up-postcards-1968-1979-418177/)

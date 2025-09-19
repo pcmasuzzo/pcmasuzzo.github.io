@@ -21,10 +21,7 @@ Here is the collection!
     <img src="{{ site.baseurl }}/assets/images/igotup/16_front.jpg" alt="Image 1">
   </div>
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/igotup/16_back" alt="Image 2">
-  </div>
-  <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/gallery/image3.jpg" alt="Image 3">
+    <img src="{{ site.baseurl }}/assets/images/igotup/16_back.jpg" alt="Image 2">
   </div>
   <!-- Add more images here -->
 </div>

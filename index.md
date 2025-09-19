@@ -1,6 +1,19 @@
 ---
 layout: default
-title: Home
+title: start here
 ---
 
-# Ciao!
+# welcome to this space
+I finally decided to create a space to put some of the things I write and create.
+This is my attempt number 78, will it be the lucky time?
+
+## what are you going to find here
+I honestly have absolutely no idea.
+
+- **newsletter**: I write on Substack, though mostly in italian! 
+- **projects**: sometimes I do artistic things (blushing profoundly)
+- **about**: maybe we can be friends!
+
+---
+
+*Thanks for visiting! Feel free to reach out if you'd like to connect.*

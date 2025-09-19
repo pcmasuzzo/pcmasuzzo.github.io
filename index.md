@@ -16,4 +16,4 @@ I honestly have absolutely no idea.
 
 ---
 
-*Thanks for visiting! Feel free to reach out if you'd like to connect.*
+*thanks for visiting and leave me a message if you'd like to connect*

@@ -17,8 +17,8 @@
 }
 
 .gallery-item img {
-    width: 75%;  /* Initially reduce images to 75% */
-    height: auto;
+    width: 25%;  
+    height: 25%;
     display: block;
     border-radius: 8px;
     transition: transform 0.3s ease;

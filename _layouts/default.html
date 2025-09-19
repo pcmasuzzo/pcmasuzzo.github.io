@@ -175,6 +175,62 @@
             min-height: 100px;
         }
         
+        /* Modal Styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            position: relative;
+            width: 80%;
+            max-width: 1000px;
+            text-align: center;
+        }
+
+        .modal-content img {
+            width: 100%;
+            height: auto;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 2rem;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .modal-nav {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .modal-nav button {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 2rem;
+        }
+
+        .modal-nav button:hover {
+            background: rgba(0, 0, 0, 0.7);
+        }
+        
         /* Responsive */
         @media (max-width: 600px) {
             main {
@@ -218,6 +274,19 @@
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     </footer>
     
+    <!-- Modal for image viewing -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Modal Image">
+            <span class="close" id="closeModal">&times;</span>
+            <div class="modal-nav">
+                <button id="prevImage">&lt;</button>
+                <button id="nextImage">&gt;</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
     <script>
         const hamburger = document.querySelector('.hamburger');
         const navMenu = document.querySelector('.nav-menu');
@@ -244,5 +313,8 @@
             }
         });
     </script>
+    
+    <!-- Link to the custom JavaScript for gallery functionality -->
+    <script src="{{ site.baseurl }}/assets/js/gallery.js" defer></script>
 </body>
 </html>

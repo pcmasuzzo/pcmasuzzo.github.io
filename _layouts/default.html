@@ -175,62 +175,6 @@
             min-height: 100px;
         }
         
-        /* Modal Styles */
-        .modal {
-            display: none; /* Hidden by default */
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-        }
-
-        .modal-content {
-            position: relative;
-            width: 80%;
-            max-width: 1000px;
-            text-align: center;
-        }
-
-        .modal-content img {
-            width: 100%;
-            height: auto;
-        }
-
-        .close {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            font-size: 2rem;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        .modal-nav {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .modal-nav button {
-            background: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            font-size: 2rem;
-        }
-
-        .modal-nav button:hover {
-            background: rgba(0, 0, 0, 0.7);
-        }
-        
         /* Responsive */
         @media (max-width: 600px) {
             main {
@@ -245,6 +189,80 @@
                 padding: 0 15px;
             }
         }
+
+        /* Gallery Styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 15px;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            max-width: 75%;  /* Resize image to 75% of its original size */
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img:hover {
+            transform: scale(1.05);  /* Slight enlargement on hover */
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        .modal img {
+            max-width: 80%;
+            max-height: 80%;
+            transition: transform 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        /* Add left and right arrow styles for navigation */
+        .modal .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+            z-index: 10001;
+        }
+
+        .modal .left-arrow {
+            left: 10px;
+        }
+
+        .modal .right-arrow {
+            right: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -274,47 +292,54 @@
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     </footer>
     
-    <!-- Modal for image viewing -->
-    <div class="modal" id="modal">
-        <div class="modal-content">
-            <img id="modalImage" src="" alt="Modal Image">
-            <span class="close" id="closeModal">&times;</span>
-            <div class="modal-nav">
-                <button id="prevImage">&lt;</button>
-                <button id="nextImage">&gt;</button>
-            </div>
-        </div>
+    <!-- Modal to display larger image -->
+    <div id="modal" class="modal">
+        <span class="arrow left-arrow">&#10094;</span>
+        <img id="modal-image" src="" alt="">
+        <span class="arrow right-arrow">&#10095;</span>
     </div>
-    
-    <!-- JavaScript -->
+
     <script>
-        const hamburger = document.querySelector('.hamburger');
-        const navMenu = document.querySelector('.nav-menu');
-        
-        hamburger.addEventListener('click', () => {
-            hamburger.classList.toggle('active');
-            navMenu.classList.toggle('active');
-            const expanded = hamburger.getAttribute('aria-expanded') === 'true' || false;
-            hamburger.setAttribute('aria-expanded', !expanded);
-        });
-        
-        document.querySelectorAll('.nav-menu a').forEach(link => {
-            link.addEventListener('click', (e) => {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
-                e.stopPropagation(); // Prevent event bubbling
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modal-image');
+        const leftArrow = document.querySelector('.left-arrow');
+        const rightArrow = document.querySelector('.right-arrow');
+        const images = document.querySelectorAll('.gallery-item img');
+        let currentIndex = 0;
+
+        // Open modal when an image is clicked
+        images.forEach((img, index) => {
+            img.addEventListener('click', () => {
+                currentIndex = index;
+                modalImage.src = img.src;
+                modal.classList.add('active');
             });
         });
-        
-        document.addEventListener('click', (e) => {
-            if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
-                hamburger.classList.remove('active');
-                navMenu.classList.remove('active');
+
+        // Close the modal when clicked outside of the image
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+
+        // Navigate through the images
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
+            modalImage.src = images[currentIndex].src;
+        });
+
+        rightArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
+            modalImage.src = images[currentIndex].src;
+        });
+
+        // Close modal with 'Esc' key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                modal.classList.remove('active');
             }
         });
     </script>
-    
-    <!-- Link to the custom JavaScript for gallery functionality -->
-    <script src="{{ site.baseurl }}/assets/js/gallery.js" defer></script>
 </body>
 </html>

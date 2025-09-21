@@ -17,11 +17,5 @@ of postcards. I then shipped them to some of my newsletters readers, and they se
 Here is the collection!
 
 <div class="gallery">
-  <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/igotup/16_front.jpg" alt="Image 1">
-  </div>
-  <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/igotup/16_back.jpg" alt="Image 2">
-  </div>
-  <!-- Add more images here -->
+  {% include igotup_gallery.html %}
 </div>

@@ -24,7 +24,7 @@ jobs:
           # add any extra pip installs if needed
 
       - name: Run gallery generator
-        run: python scripts/make_gallery.py
+        run: python scripts/igotup_gallery.py
 
       - name: Commit updated gallery
         run: |

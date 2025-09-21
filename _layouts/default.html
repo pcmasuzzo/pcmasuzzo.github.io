@@ -46,14 +46,14 @@
         const modalImage = document.getElementById('modal-image');
         const leftArrow = document.querySelector('.left-arrow');
         const rightArrow = document.querySelector('.right-arrow');
-        const images = document.querySelectorAll('.gallery-item img');
+        const images = document.querySelectorAll('.gallery-item div');
         let currentIndex = 0;
 
         // Open modal when an image is clicked
         images.forEach((img, index) => {
             img.addEventListener('click', () => {
                 currentIndex = index;
-                modalImage.src = img.src;
+                modalImage.src = img.dataset.imageUrl;
                 modal.classList.add('active');
             });
         });

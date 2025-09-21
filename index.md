@@ -13,7 +13,7 @@ I honestly have absolutely no idea. OK, maybe a little bit.
 
 - **newsletter**: I write on substack, though mostly in italian
 - **projects**: sometimes I do artistic things (blushing profoundly)
-- **about**: the stuff I come up about myself; the bits I think are worth to be shared
+- **about**: the stuff I come up about myself; the bits I think are worth sharing
 
 ---
 

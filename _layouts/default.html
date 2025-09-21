@@ -207,16 +207,18 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .gallery-item img {
+        .gallery-item div {
             width: 100%;
+            height: 200px;
             height: auto;
             display: block;
-            border-radius: 8px;
-            max-width: 75%;  /* Resize image to 75% of its original size */
             transition: transform 0.3s ease;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
         }
 
-        .gallery-item img:hover {
+        .gallery-item div:hover {
             transform: scale(1.05);  /* Slight enlargement on hover */
         }
 

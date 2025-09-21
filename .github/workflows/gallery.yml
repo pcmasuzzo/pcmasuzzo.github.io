@@ -1,15 +1,18 @@
-name: Auto-generate I GOT UP gallery
+name: Auto-generate gallery
 
 on:
   push:
     branches:
-      - main  
+      - main
+    paths:
+      - 'assets/**'           # trigger only if any file in assets/ changes
+      - 'scripts/igotup_gallery.py'  # also trigger if the Python script changes
 
 jobs:
   build-gallery:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   
+      contents: write  # allows pushing back to the repo
 
     steps:
       - name: Checkout repo
@@ -25,7 +28,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt || true
-          # add extra pip installs if your script needs them
 
       - name: Run gallery generator
         run: python scripts/igotup_gallery.py

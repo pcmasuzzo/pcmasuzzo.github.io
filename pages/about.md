@@ -17,4 +17,6 @@ I am (finally?) setting this up to have a space in the world wide web to put eve
 
 It's my attempt number *I can't even recall*, because every time I try to crystallize parts of me in some form or shape, those parts run away and I am left with a profound sense of unaccomplishment and anxiety.
 
+The closest thing I have written to some sort of _self-portrait_ is [this one](https://paolamasuzzo.substack.com/p/self-portrait): I'd love to hear what you think of it.
+
 Well, I hope you enjoy being here!

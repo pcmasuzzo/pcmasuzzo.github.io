@@ -1,0 +1,35 @@
+name: Auto-generate gallery
+
+on:
+  push:
+    branches:
+      - main  # or your default branch
+
+jobs:
+  build-gallery:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+          # add any extra pip installs if needed
+
+      - name: Run gallery generator
+        run: python scripts/make_gallery.py
+
+      - name: Commit updated gallery
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add _includes/igotupgallery.html
+          git commit -m "Auto-update gallery" || echo "No changes to commit"
+          git push

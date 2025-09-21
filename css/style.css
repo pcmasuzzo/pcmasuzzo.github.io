@@ -1,35 +1,37 @@
-/* Gallery Styles */
+/* Gallery container */
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
-    gap: 15px;
-    margin-top: 20px;
-    padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 10px;
 }
 
+/* Individual gallery item */
 .gallery-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* square boxes */
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #f0f0f0; /* optional placeholder color */
 }
 
+/* Images inside the box */
 .gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-    transform: scale(0.25);  /* Scale the image to 25% of its original size */
-    transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills box without stretching */
+  transition: transform 0.2s ease-in-out;
 }
 
-/* When hovering over an image, it will grow in size */
-.gallery-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
+/* Hover effect */
 .gallery-item img:hover {
-    transform: scale(1.1);  /* Hover effect: slightly enlarge image */
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 6px;
+  }
 }

@@ -5,10 +5,11 @@ title: start here
 
 # welcome to this space
 I finally decided to create a space to put some of the things I write and create.
-This is my attempt number 78, will it be the lucky time?
+This is my attempt number 78, will it be the lucky one?
+I have previously written [here](https://runningoutofshrimp.wordpress.com/) and also [here](https://theyjustwriteitoff.blogspot.com/). And before that on some other platforms, too, but nothing too important.
 
 ## what are you going to find here
-I honestly have absolutely no idea.
+I honestly have absolutely no idea. OK, maybe a little bit.
 
 - **newsletter**: I write on substack, though mostly in italian
 - **projects**: sometimes I do artistic things (blushing profoundly)

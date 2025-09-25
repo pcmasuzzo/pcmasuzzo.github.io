@@ -106,7 +106,7 @@ header {
 
 /* Main Content */
 main {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 100px auto 0;
   padding: 0 20px;
   min-height: calc(100vh - 200px);

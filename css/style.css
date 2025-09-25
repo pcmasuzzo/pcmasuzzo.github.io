@@ -20,6 +20,16 @@ header {
   z-index: 1000;
 }
 
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
 /* Hamburger Menu */
 .hamburger {
   display: none;
@@ -104,11 +114,19 @@ header {
   }
 }
 
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 100px auto 0;
+  padding: 0 20px;
+  min-height: calc(100vh - 200px);
+}
+
 /* Typography */
 h1,
 h2,
 h3 {
-  color: #dc64d4;
+  color: #2c3e50;
   margin-bottom: 20px;
 }
 
@@ -134,13 +152,28 @@ p {
 
 /* Footer */
 footer {
-  background: #1e89f4;
+  background: #f8f9fa;
   text-align: center;
   padding: 40px 20px;
   margin-top: 60px;
   color: #666;
   border-top: 1px solid #eee;
   min-height: 100px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  main {
+    padding: 0 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .nav-container {
+    padding: 0 15px;
+  }
 }
 
 /* Gallery Styles */

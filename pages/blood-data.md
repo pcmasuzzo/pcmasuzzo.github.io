@@ -9,7 +9,7 @@ The treatment for my breast cancer entailed a detailed and long chemotherapy per
 
 Here is a small schema for it:
 
-<img src="/assets/images/cycles.png" alt="schema of my chemotherapy plan" width="200"/>
+<img src="/assets/images/cycles.png" alt="schema of my chemotherapy plan" width="600"/>
 
 Not a lot of people know this - and I didn't know before I got sick - but you can't have chemotherapy _if your blood is not good enough_. But what does that mean? When it's your blood good enough to tolerate chemotherapy?
 

@@ -15,7 +15,7 @@ Not a lot of people know this - and I didn't know before I got sick - but you ca
 
 At the hospital, on every chemotherapy day, an entire blood run was performed for me and, amongst other things, two metrics were closely monitored:
 - amount of **hemoglobin**: this has been the weakest point in my body throughout the whole chemotherapy cycles; somehow I stopped producing enough healthy red blood cells, which meant I was often tired, to the verge of continuous fatigue during the hardest weeks of my treatment
-- absolute **neutrophil** count: this is a key metric for every oncological patient; neutrophils are a type of white blood cells crucial for fighting infections, and chemotherapy brings this count lower - less than 1.500 means that neutropenia is occurring, and receiving chemotherapy is often considered too risky
+- absolute **neutrophil** count: this is a key metric for every oncological patient; neutrophils are a type of white blood cells crucial for fighting infections, and chemotherapy brings this count lower - less than 1500 means that neutropenia is occurring, and receiving chemotherapy is often considered too risky
 
 ## my blood data
 In Flanders, Belgium - where I live - patients can use a **digital collaboration platform** called CoZo (from Collaboratief Zorgplatform) to access their health data. The platform is actually used also by  healthcare providers and institutions to quickly and securely exchange and share medical data across different parties.
@@ -28,8 +28,20 @@ I did this for the course of several weeks, added the data to Flourish, and made
     <script src="https://public.flourish.studio/resources/embed.js"></script>
     <noscript>
         <img src="https://public.flourish.studio/visualisation/16495145/thumbnail" 
-             width="100%" 
+             width="110%" 
              alt="chart visualization" />
     </noscript>
 </div>
 
+The 8th of November 2023 I started chemotherapy.
+My hemoglobin was 12 and a half and my absolute neutrophil count more than 7000. 
+One session of chemotherapy was enough to bring my hemoglobin down to 10.9 and my absolute neutrophil count to a little more than 3000. Damn.
+
+Every time the line at the bottom, the neutrophil one, went below 1500, neutropenia was happening and I had to skip chemotherapy.
+
+Every time the line at the top, the hemoglobin one, was around 8 or below, I had to get a blood transfusion. 
+
+Between February and March 2024 I got an infection via my port-a-cath, you can see there my neutrophil count spiking back to 6000: my tiny little body was definitely doing its best to protect me.
+
+
+The data are here if you want to have a look or perhaps recreate my plot.

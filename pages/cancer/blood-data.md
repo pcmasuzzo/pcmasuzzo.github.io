@@ -44,6 +44,6 @@ Every time the line at the top, the hemoglobin one, was around 8 or below, I had
 Between February and March 2024 I got an infection via my port-a-cath, you can see there my neutrophil count spiking back to 6000: my tiny little body was definitely doing its best to protect me.
 
 
-The data are here if you want to have a look or perhaps recreate my plot - not sure why you'd want to do that, but you absolutely can. I am looking for a way to transform this plot into something more artsy, a landscape, a road, a collage, I am not sure. 
+The [data are here](/data/blood-data.csv) if you want to have a look or perhaps recreate my plot - not sure why you'd want to do that, but you absolutely can. I am looking for a way to transform this plot into something more artsy, a landscape, a road, a collage, I am not sure. 
 
 you have an idea? let me know :)

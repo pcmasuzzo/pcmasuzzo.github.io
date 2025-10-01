@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "my cancer"
-permalink: /pages/cancer/
+title: "my cancer (archive)"
+permalink: /pages/cancer/cancer
 ---
 
 The 20th of October 2023 I received a diagnosis of triple negative breast cancer.

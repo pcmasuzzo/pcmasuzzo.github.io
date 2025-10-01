@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "blood data"
-permalink: /pages/blood-data/
+permalink: /pages/cancer/blood-data/
 ---
 
 ## what's in my blood?

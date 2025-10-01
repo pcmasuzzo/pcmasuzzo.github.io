@@ -14,7 +14,7 @@ I have been surviving cancer for two years, now. Along the way, between chemothe
 Here are some of the little silly things I made that kept me floating when I thought I was going to drown.
 
 
-## [blood data](/pages/blood-data/)
+## [blood data](/pages/cancer/blood-data/)
 
 - art
 - pictures of pills

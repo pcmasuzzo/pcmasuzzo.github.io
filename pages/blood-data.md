@@ -7,6 +7,10 @@ permalink: /pages/blood-data/
 ## what's in my blood?
 The treatment for my breast cancer entailed a detailed and long chemotherapy period, with a cycle of weekly sessions for 12 weeks, and a cycle of biweekly sessions for 8 weeks.
 
+Here is a small schema for it:
+
+![schema](/assets/images/cycles.png)
+
 Not a lot of people know this - and I didn't know before I got sick - but you can't have chemotherapy _if your blood is not good enough_. But what does that mean? When it's your blood good enough to tolerate chemotherapy?
 
 At the hospital, on every chemotherapy day, an entire blood run was performed for me and, amongst other things, two metrics were closely monitored:

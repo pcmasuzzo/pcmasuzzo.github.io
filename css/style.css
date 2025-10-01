@@ -20,6 +20,16 @@ header {
   z-index: 1000;
 }
 
+a {
+  color: #03719c; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03719c;
+  text-decoration: underline;
+}
+
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;

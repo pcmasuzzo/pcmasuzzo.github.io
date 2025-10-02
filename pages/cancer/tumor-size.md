@@ -19,5 +19,8 @@ During chemotherapy, I underwent a few ultrasound scans in order to measure my t
 
 So, I took my tumor size as reported in the medical file prepared by my radiologist and I asked myself: **if I could hold this tumor in my hands, what would it look like? which are other things are more or less this size?**. And so I came up with a list of eight things, here they are!
 
-
-
+{% for i in (1..10) %}
+<div class="gallery-item">
+  <div style="background-image: url('{{ site.baseurl }}/assets/images/cancer/tumor-size/{{ i }}.png')" alt="{{ i }}" data-image-url="{{ site.baseurl }}/assets/images/cancer/tumor-size/{{ i }}.png"></div>
+</div>
+{% endfor %}

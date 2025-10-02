@@ -28,12 +28,13 @@ I did this for the course of several weeks, added the data to Flourish, and made
     <script src="https://public.flourish.studio/resources/embed.js"></script>
     <noscript>
         <img src="https://public.flourish.studio/visualisation/16495145/thumbnail" 
-             width="130%" 
+             width="200%" 
              alt="chart visualization of my blood data" />
     </noscript>
 </div>
 
 I'll walk you through some key data points.
+
 The 8th of November 2023 I started chemotherapy.
 My hemoglobin was 12 and a half and my absolute neutrophil count more than 7000. 
 One session of chemotherapy was enough to bring my hemoglobin down to 10.9 and my absolute neutrophil count to a little more than 3000. Damn.

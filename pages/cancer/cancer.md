@@ -15,6 +15,8 @@ Here are some of the little silly things I made that kept me floating when I tho
 
 
 ## [blood data](/pages/cancer/blood-data/)
+## [tumor size](/pages/cancer/tumor-size/)
+
 
 - art
 - pictures of pills

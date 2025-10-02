@@ -28,7 +28,7 @@ I did this for the course of several weeks, added the data to Flourish, and made
     <script src="https://public.flourish.studio/resources/embed.js"></script>
     <noscript>
         <img src="https://public.flourish.studio/visualisation/16495145/thumbnail" 
-             width="200%" 
+             width="100%" 
              alt="chart visualization of my blood data" />
     </noscript>
 </div>

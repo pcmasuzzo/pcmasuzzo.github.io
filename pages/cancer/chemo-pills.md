@@ -17,4 +17,5 @@ My oncologist advised an extra six months of oral chemotherapy, and in August 20
 2 weeks x 8 cycles = 14 days x 8 cycles = 112 days
 112 days x 2 pictures a day = 224 pictures
 ```
+
 <img src="/assets/images/cancer/chemo-pills/chemo-pills.gif" alt="gif of the chemo pills" width="600"/>

@@ -24,7 +24,7 @@ here are some silly little things that kept me floating when I thought I was goi
 ### stories
 ### [blood data](/pages/cancer/blood-data/)
 ### [tumor size](/pages/cancer/tumor-size/)
-### [chemo](/pages/cancer/chemo-pills/)
+### [chemo pills](/pages/cancer/chemo-pills/)
 
 - pictures of me
 - letter to my body

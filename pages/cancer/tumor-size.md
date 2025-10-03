@@ -4,7 +4,7 @@ title: "tumor size"
 permalink: /pages/cancer/tumor-size/
 ---
 
-## how bad is it?
+### how bad is it?
 If you receive a breast cancer diagnosis, one of the first questions that pop to your mind is going to be: _how bad is it?_ - which mostly translates into: _how big is it?_
 
 Knowing how big your tumor is, together with an assessment of the status of health of your lymph nodes, will help determine more clearly the stage, prognosis, and treatment plan for your cancer.
@@ -14,7 +14,7 @@ The first, approximate measurement comes from an _echography_, which is then oft
 
 Knowing the size of the tumor is crucial not only to design the treatment plan, but also to understand if the treatment is working: if chemotherapy is doing what it's supposed to be doing, the tumor will shrink down. How much and how fast is impossible to predict, but the direction - the tumor becoming smaller and smaller - is clear.
 
-## how big is my tumor?
+### how big is my tumor?
 During chemotherapy, I underwent a few ultrasound scans in order to measure my tumor and see if the response we were hoping for was there. The results were not always great, but around February 2024, before I started the last and hardest stretch of chemotherapy, things started moving in the right direction.
 
 So, I took my tumor size as reported in the medical file prepared by my radiologist and I asked myself: **if I could hold this tumor in my hands, what would it look like? which are other things are more or less this size?** And so I came up with a list of eight things, here they are!

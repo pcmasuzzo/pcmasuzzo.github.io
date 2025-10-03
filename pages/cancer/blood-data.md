@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "blood data"
+title: "blood-data"
 permalink: /pages/cancer/blood-data/
 ---
 
-## what's in my blood?
+### what's in my blood?
 The treatment for my breast cancer entailed a detailed and long chemotherapy period, with a cycle of weekly sessions for 12 weeks, and a cycle of biweekly sessions for 8 weeks.
 
 Here is a small schema for it:
@@ -17,7 +17,7 @@ At the hospital, on every chemotherapy day, an entire blood run was performed fo
 - amount of **hemoglobin**: this has been the weakest point in my body throughout the whole chemotherapy cycles; somehow I stopped producing enough healthy red blood cells, which meant I was often tired, to the verge of continuous fatigue during the hardest weeks of my treatment
 - absolute **neutrophil** count: this is a key metric for every oncological patient; neutrophils are a type of white blood cells crucial for fighting infections, and chemotherapy brings this count lower - less than 1500 means that neutropenia is occurring, and receiving chemotherapy is often considered too risky
 
-## my blood data
+### my blood data
 In Flanders, Belgium - where I live - patients can use a **digital collaboration platform** called CoZo (from Collaboratief Zorgplatform) to access their health data. The platform is actually used also by  healthcare providers and institutions to quickly and securely exchange and share medical data across different parties.
 
 During my chemotherapy, I was interested in understanding how good (or better: how bad) my blood was behaving, so every time I went through a blood run - and when I had the energy, which, admittedly, did not happen a lot - I **downloaded the PDF reports of the lab work** and I **extracted the values of hemoglobin and absolute neutrophil count**. 

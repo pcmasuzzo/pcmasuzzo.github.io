@@ -27,5 +27,5 @@ I ended up with 224 pictures, yes.
 
 Here is the full _chemo collage_, which I am now busy annotating.
 
-<img src="/assets/images/cancer/chemo-pills/chemo-collage.jpg" alt="collage of all the pictures I took during my oral chemotherapy" width="1000"/>
+<img src="/assets/images/cancer/chemo-pills/chemo-collage.jpg" alt="collage of all the pictures I took during my oral chemotherapy" width="600"/>
 

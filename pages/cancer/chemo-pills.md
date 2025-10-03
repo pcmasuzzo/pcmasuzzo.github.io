@@ -15,13 +15,13 @@ My oncologist advised an extra six months of oral chemotherapy, and in August 20
 When I started assuming the oral chemotherapy, I thought I needed something to help me record the moment, something that would remind me I was going through the extra pain for a reason, in order to survive, to have a real chance at it. 
 
 So I started taking pictures of the pills, two pictures a day for every day of chemotherapy. Here is a little schema to help you visualize it:
-```
+
+```<br>
 8 cycles of 3 weeks each = 24 weeks = 6 months
 1 cycle = 3 weeks = 2 weeks with pills + 1 week without pills
 2 weeks with pills x 8 cycles = 14 days with pills x 8 cycles = 112 days with pills
-112 days with pills x 2 pictures a day = 224 pictures
+112 days with pills x 2 pictures a day = 224 pictures</br>
 ```
-
 
 I ended up with 224 pictures, yes.
 

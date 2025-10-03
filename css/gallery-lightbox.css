@@ -1,3 +1,32 @@
+/* Gallery Item Styles */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item div {
+  width: 100%;
+  height: 200px;
+  display: block;
+  transition: transform 0.3s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery-item:hover div {
+  transform: scale(1.05);
+}
+
 /* Lightbox Container */
 .lightbox {
   position: fixed;
@@ -94,6 +123,10 @@
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+  .gallery-item div {
+    height: 150px;
+  }
+  
   .lightbox-image {
     max-width: 95%;
     max-height: 85vh;

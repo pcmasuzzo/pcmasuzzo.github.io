@@ -6,6 +6,7 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <!-- Link to the custom CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gallery-lightbox.css">
 </head>
 <body>
     <header>
@@ -41,47 +42,6 @@
         <span class="arrow right-arrow">&#10095;</span>
     </div>
 
-    <script>
-        const modal = document.getElementById('modal');
-        const modalImage = document.getElementById('modal-image');
-        const leftArrow = document.querySelector('.left-arrow');
-        const rightArrow = document.querySelector('.right-arrow');
-        const images = document.querySelectorAll('.gallery-item div');
-        let currentIndex = 0;
-
-        // Open modal when an image is clicked
-        images.forEach((img, index) => {
-            img.addEventListener('click', () => {
-                currentIndex = index;
-                modalImage.src = img.dataset.imageUrl;
-                modal.classList.add('active');
-            });
-        });
-
-        // Close the modal when clicked outside of the image
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.classList.remove('active');
-            }
-        });
-
-        // Navigate through the images
-        leftArrow.addEventListener('click', () => {
-            currentIndex = (currentIndex === 0) ? images.length - 1 : currentIndex - 1;
-            modalImage.src = images[currentIndex].src;
-        });
-
-        rightArrow.addEventListener('click', () => {
-            currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
-            modalImage.src = images[currentIndex].src;
-        });
-
-        // Close modal with 'Esc' key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                modal.classList.remove('active');
-            }
-        });
-    </script>
+    <script src="{{ site.baseurl }}/assets/js/gallery-lightbox.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ Knowing the size of the tumor is crucial not only to design the treatment plan, 
 ## how big is my tumor?
 During chemotherapy, I underwent a few ultrasound scans in order to measure my tumor and see if the response we were hoping for was there. The results were not always great, but around February 2024, before I started the last and hardest stretch of chemotherapy, things started moving in the right direction.
 
-So, I took my tumor size as reported in the medical file prepared by my radiologist and I asked myself: **if I could hold this tumor in my hands, what would it look like? which are other things are more or less this size?**. And so I came up with a list of eight things, here they are!
+So, I took my tumor size as reported in the medical file prepared by my radiologist and I asked myself: **if I could hold this tumor in my hands, what would it look like? which are other things are more or less this size?** And so I came up with a list of eight things, here they are!
 
 <div class="gallery-grid">
   {% for i in (1..10) %}

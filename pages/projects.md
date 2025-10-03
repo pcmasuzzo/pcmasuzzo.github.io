@@ -14,4 +14,4 @@ I copied the japanese artist On Kawara and stamped 31 postcards with the exact h
 ## my cancer (archive)
 I didn't put this up in the _about_ section, but a big part of my identity boils down to me being a triple negative breast cancer survivor. During my active cancer treatment - the hardest time of my life - I found solace in writing and in data, and sometimes in the combination of the two.
 
-[you can explore it a bit here ](/pages/cancer/cancer/)
+[you can explore it a bit here ](/pages/cancer/cancer-archive/)

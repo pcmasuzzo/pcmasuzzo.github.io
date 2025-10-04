@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <!-- Link to the custom CSS file -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <!-- Link to the standard CSS file -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <!-- Custom CSS for specific pages -->
     {% if page.custom_css %}
         {% if page.custom_css.first %}

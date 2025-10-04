@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <!-- Link to the standard CSS file -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <!-- Link to the custom CSS file -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
     <!-- Custom CSS for specific pages -->
     {% if page.custom_css %}
         {% if page.custom_css.first %}
         <!-- Single CSS file -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ page.custom_css }}">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.css }}">
         {% endif %}
     {% endif %}
 </head>

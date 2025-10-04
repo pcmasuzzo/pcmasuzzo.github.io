@@ -6,6 +6,13 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <!-- Link to the custom CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+    <!-- Custom CSS for specific pages -->
+    {% if page.custom_css %}
+        {% if page.custom_css.first %}
+        <!-- Single CSS file -->
+        <link rel="stylesheet" href="{{ '/assets/css/' | append: page.custom_css | relative_url }}">
+        {% endif %}
+    {% endif %}
 </head>
 <body>
     <header>
@@ -35,12 +42,12 @@
     </footer>
     
     <!-- Modal to display larger image -->
-    <div id="modal" class="modal">
+    <!-- <div id="modal" class="modal">
         <span class="arrow left-arrow">&#10094;</span>
         <img id="modal-image" src="" alt="">
         <span class="arrow right-arrow">&#10095;</span>
     </div>
-
+ -->
     <!--script src="{{ site.baseurl }}/assets/js/gallery-lightbox.js"></script>
 </body>
 </html>

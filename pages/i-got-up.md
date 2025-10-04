@@ -1,5 +1,6 @@
 ---
 layout: default
+custom_css: igotup-gallery.css
 title: "I GOT UP"
 permalink: /pages/i-got-up/
 ---

@@ -1,5 +1,6 @@
 ---
 layout: default
+custom_css: tumor-size-gallery.css
 title: "tumor size"
 permalink: /pages/cancer/tumor-size/
 ---
@@ -21,7 +22,7 @@ So, I took my tumor size as reported in the medical file prepared by my radiolog
 
 <div class="gallery-grid">
   {% for i in (1..10) %}
-  <div class="gallery-item-2">
+  <div class="gallery-item">
     <div style="background-image: url('{{ site.baseurl }}/assets/images/cancer/tumor-size/{{ i }}.png')" alt="{{ i }}" data-image-url="{{ site.baseurl }}/assets/images/cancer/tumor-size/{{ i }}.png"></div>
   </div>
   {% endfor %}

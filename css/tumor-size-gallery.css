@@ -1,0 +1,35 @@
+.gallery-item {
+  width: 100%;
+  padding-bottom: 100%; 
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px; 
+}
+
+.gallery-item div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 8px; 
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}

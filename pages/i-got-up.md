@@ -18,5 +18,5 @@ of postcards. I then shipped the postcards to some of my newsletters readers and
 Here is the collection!
 
 <div class="gallery">
-  {% include igotup_gallery.html %}
+  {% include igotup-gallery.html %}
 </div>

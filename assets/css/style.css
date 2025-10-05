@@ -171,6 +171,15 @@ li {
   line-height: 1.6;
 }
 
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid #03719c;
+  padding-left: 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #555;
+}
+
 /* Responsive images */
 main img {
   max-width: 100%;

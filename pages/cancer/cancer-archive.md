@@ -14,7 +14,7 @@ Having cancer has been a trauma, and like it happens for most traumatic experien
 
 But, as Derrida brilliantly put it many years ago, the form of recording, writing, archiving, storing, is capable not only of reflecting time but also of constructing it. Perhaps, then, the act of archiving and writing about my disease will construct a meaning and a memory that can alter, modify, who knows even broaden, the meaning and memory of when I was experiencing it.
 
-```  the archive produces the event as much as it records it ``` 
+> the archive produces the event as much as it records it
 
 I have been surviving cancer for two years, now. Along the way, between chemotherapy and radiotherapy, and across surgeries and again chemotherapy, I found solace in the written words, in art, in companionship, in data, and mostly in the magic mix of it all.
 

@@ -183,7 +183,7 @@ blockquote {
 /* Code block styling */
 pre, code {
   font-family: 'Courier New', Courier, monospace;
-  background-color: #f4f4f4;
+  background-color: #f3eeee;
   border-radius: 4px;
 }
 

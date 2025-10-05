@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: 
+custom_css: chemopills-gallery.css
 title: "chemo pills"
 permalink: /pages/cancer/chemo-pills/
 ---

@@ -1,0 +1,60 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr); /* Exactly 14 columns */
+  gap: 3px; /* Minimal spacing between images */
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px; /* Smaller border radius for tiny images */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.gallery-item div {
+  width: 100%;
+  height: 60px; /* Small fixed height for compact grid */
+  display: block;
+  transition: transform 0.2s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Bring hovered item to front */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(10, 1fr); /* Reduce to 10 columns on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(7, 1fr); /* 7 columns on mobile */
+    gap: 2px;
+  }
+  
+  .gallery-item div {
+    height: 50px; /* Slightly smaller on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on small phones */
+  }
+  
+  .gallery-item div {
+    height: 70px; /* Make them a bit taller on tiny screens */
+  }
+}

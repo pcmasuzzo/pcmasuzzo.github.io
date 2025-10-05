@@ -11,9 +11,9 @@ I have previously written [here](https://runningoutofshrimp.wordpress.com/) and 
 ## what are you going to find here
 I honestly have absolutely no idea. OK, maybe a little bit.
 
-- **newsletter**: I write on substack, though mostly in italian
-- **projects**: sometimes I do artistic things (blushing profoundly)
-- **about**: the stuff I come up about myself; the bits I think are worth sharing
+- **[newsletter](/pages/newsletter/)**: I write on substack, though mostly in italian
+- **[projects](/pages/projects/)**: sometimes I do artistic things (blushing profoundly)
+- **[about](/pages/about/)**: the stuff I come up about myself; the bits I think are worth sharing
 
 ---
 

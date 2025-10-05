@@ -1,6 +1,7 @@
 ---
 layout: default
 title: my projects
+permalink: /pages/projects/
 ---
 
 I have to be honest, I am not sure what classifies as a project :D

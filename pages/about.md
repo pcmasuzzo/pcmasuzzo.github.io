@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: about
+permalink: /pages/about/
 ---
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px; flex-wrap: wrap;">
   <img src="{{ site.baseurl }}/assets/images/pcmprofile.jpg" alt="Profile picture" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">

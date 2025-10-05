@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <!-- Link to the custom CSS file -->
+    <!-- Link to the main CSS file -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
     <!-- Custom CSS for specific pages -->
     {% if page.custom_css %}
-        <!-- Single CSS file -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.custom_css }}">
     {% endif %}
 </head>
@@ -30,22 +29,18 @@
             </nav>
         </div>
     </header>
-    
+   
     <main>
         {{ content }}
     </main>
-    
+   
     <footer>
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     </footer>
-    
-    <!-- Modal to display larger image -->
-    <!-- <div id="modal" class="modal">
-        <span class="arrow left-arrow">&#10094;</span>
-        <img id="modal-image" src="" alt="">
-        <span class="arrow right-arrow">&#10095;</span>
-    </div>
- -->
-    <!--script src="{{ site.baseurl }}/assets/js/gallery-lightbox.js"></script>
+   
+    <!-- Custom JS for specific pages -->
+    {% if page.custom_js %}
+        <script src="{{ site.baseurl }}/js/{{ page.custom_js }}"></script>
+    {% endif %}
 </body>
 </html>

@@ -38,6 +38,9 @@
         <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
     </footer>
    
+    <!-- Main menu JavaScript (loads on all pages) -->
+    <script src="{{ site.baseurl }}/assets/js/menu.js"></script>
+
     <!-- Custom JS for specific pages -->
     {% if page.custom_js %}
         <script src="{{ site.baseurl }}/assets/js/{{ page.custom_js }}"></script>

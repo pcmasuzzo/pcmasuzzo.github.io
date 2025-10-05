@@ -160,6 +160,17 @@ p {
   font-size: 1.0rem;
 }
 
+ul, ol {
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.0rem;
+  line-height: 1.6;
+}
+
 /* Responsive images */
 main img {
   max-width: 100%;

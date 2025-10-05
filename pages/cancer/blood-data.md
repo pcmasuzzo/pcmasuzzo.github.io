@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "blood-data"
+title: "blood data"
 permalink: /pages/cancer/blood-data/
 ---
 

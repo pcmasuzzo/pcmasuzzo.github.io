@@ -24,8 +24,9 @@ So I started taking pictures of the pills, two pictures a day for every day of c
 ```
 
 I ended up with 224 pictures, yes.
+I started on August 7th 2024 and finished on January 14th 2025.
 
 Here is the full _chemo pills collage_, which I am now busy annotating.
 
-<img src="/assets/images/cancer/chemo-pills/chemo-collage.jpg" alt="collage of all the pictures I took during my oral chemotherapy" width="600"/>
+<img src="/assets/images/cancer/chemo-pills/collage/chemo-collage.jpg" alt="collage of all the pictures I took during my oral chemotherapy"/>
 

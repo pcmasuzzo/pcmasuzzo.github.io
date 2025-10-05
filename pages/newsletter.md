@@ -1,6 +1,7 @@
 ---
 layout: default
 title: my newsletter
+permalink: /pages/newsletter/
 ---
 
 # my newsletter

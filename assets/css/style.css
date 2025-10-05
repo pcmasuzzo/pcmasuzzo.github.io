@@ -180,6 +180,19 @@ blockquote {
   color: #555;
 }
 
+/* Code block styling */
+pre, code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+
+pre {
+  padding: 15px;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
 /* Responsive images */
 main img {
   max-width: 100%;

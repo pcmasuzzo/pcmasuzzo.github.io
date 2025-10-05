@@ -160,6 +160,14 @@ p {
   font-size: 1.0rem;
 }
 
+/* Responsive images */
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
 /* Footer */
 footer {
   background: #f8f9fa;

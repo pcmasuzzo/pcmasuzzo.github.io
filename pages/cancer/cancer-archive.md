@@ -20,9 +20,6 @@ I have been surviving cancer for two years, now. Along the way, between chemothe
 
 here are some silly little things that kept me floating when I thought I was going to drown.
 
-
-here are some silly little things that kept me floating when I thought I was going to drown.
-
 - IG stories
 - **[blood data](/pages/cancer/blood-data/)**
 - **[tumor size](/pages/cancer/tumor-size/)**

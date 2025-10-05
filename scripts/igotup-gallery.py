@@ -2,7 +2,7 @@ import os
 
 # Constants
 IMAGE_FOLDER = "assets/images/igotup"
-OUTPUT_FILE = "_includes/igotup_gallery.html"
+OUTPUT_FILE = "_includes/igotup-gallery.html"
 VALID_EXTENSIONS = (".jpg", ".jpeg", ".png", ".gif", ".webp")
 
 # Get sorted list of image files

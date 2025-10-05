@@ -29,5 +29,8 @@ I started on August 7th 2024 and finished on January 14th 2025.
 
 Here is the full _chemo pills collage_, which I am now busy annotating.
 
-<img src="/assets/images/cancer/chemo-pills/collage/chemo-collage.jpg" alt="collage of all the pictures I took during my oral chemotherapy"/>
+<div class="gallery">
+  {% include chemopills-gallery.html %}
+</div>
+
 

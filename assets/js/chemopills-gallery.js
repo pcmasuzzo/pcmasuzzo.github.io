@@ -3,23 +3,37 @@
 // ============================================
 
 const hotspots = [
-  // EXAMPLE: Single image hotspot
   {
     image: "001.jpg",
-    info: "first day of chemotherapy - started with low dosage!",
+    info: "first day of chemotherapy: started with low dosage, 3 pills of 500 mg",
+    type: "single"
+  },
+
+  {
+    image: "006.jpg",
+    info: "I am pretty sure this red background comes from a placemat in a restaurant!",
+    type: "single"
+  },
+
+  {
+    image: "007.jpg",
+    info: "this yellow/orange placemat means I was having lunch at myu friend's place :)",
+    type: "single"
+  },
+
+  {
+    image: "013.jpg",
+    info: "after the first blood check, the dosage was increased adding a little pill of 150 mg",
     type: "single"
   },
   
-  // EXAMPLE: Group of images
   {
     images: ["196.jpg", "197.jpg", "198.jpg", "199.jpg", "200.jpg"],
     info: "the background is red because this was around christmas time",
     type: "group"
   }
   
-  // ADD MORE HOTSPOTS HERE:
-  // Single: { image: "pill_XXX.jpg", info: "your text", type: "single" },
-  // Group: { images: ["pill_XXX.jpg", "pill_YYY.jpg"], info: "your text", type: "group" }
+
 ];
 
 

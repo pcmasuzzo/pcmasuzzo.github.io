@@ -4,36 +4,43 @@
 
 const hotspots = [
   {
-    image: "001.jpg",
+    image: "IMG_20240807_075845.jpg",
     info: "first day of chemotherapy: started with low dosage, 3 pills of 500 mg",
     type: "single"
   },
 
   {
-    image: "006.jpg",
-    info: "I am pretty sure this red background comes from a placemat in a restaurant!",
+    image: "IMG_20240807_203430.jpg",
+    info: "my first meal out while on oral chemotherapy - it was Thai food!",
     type: "single"
   },
 
   {
-    image: "007.jpg",
+    image: "IMG_20240811_075855.jpg",
     info: "this yellow/orange placemat means I was having lunch at myu friend's place :)",
     type: "single"
   },
-
-  {
-    image: "013.jpg",
-    info: "after the first blood check, the dosage was increased adding a little pill of 150 mg",
-    type: "single"
-  },
   
   {
-    images: ["196.jpg", "197.jpg", "198.jpg", "199.jpg", "200.jpg"],
-    info: "the background is red because this was around christmas time",
+    image: "IMG_20240814_074233.jpg",
+    info: "a blood test after the first 7 days showed I was doing OK enough to dose it up a little",
+    type: "single"
+  },
+
+  {
+    image: "IMG_20240828_073015.jpg",
+    info: "my dose went up again: 3 pills of 500 mg + 2 pills of 150 mg",
+    type: "single"
+  },
+
+  {
+    images: ["IMG_20250101_075142.jpg", "IMG_20250101_195548.jpg",
+        "IMG_20250102_075908.jpg", "IMG_20250102_195935.jpg",
+        "IMG_20250103_075840.jpg"],
+    info: "the first chemo of 2025: I use the read tablecloth for NYE!",
     type: "group"
   }
   
-
 ];
 
 

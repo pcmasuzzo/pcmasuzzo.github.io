@@ -11,10 +11,10 @@ After the first big chemotherapy and a cycle of radiotherapy (my _neoadjuvant_ t
 
 Unfortunately, this was not the case. After surgery, the doctors explained to me that there was still _residual invasive disease_ in my body, which meant my chances for a relapse were too high if we didn't do anything else. 
 
-My oncologist advised an extra six months of oral chemotherapy, and in August 2024 I started assuming _capecitabine_.
+My oncologist advised an extra six months of oral chemotherapy, and in August 2024 I started with _capecitabine_.
 
 ### two pictures a day
-When I started assuming the oral chemotherapy, I thought I needed something to help me record the moment, something that would remind me I was going through the extra pain for a reason, in order to survive, to have a real chance at it. 
+When I started taking oral chemotherapy, I thought I needed something to help me record the moment, something that would remind me I was going through the extra pain for a reason, in order to survive, to have a real chance at it. 
 
 So I started taking pictures of the pills, two pictures a day for every day of chemotherapy.
 I started on August 7th 2024 and finished on January 14th 2025.
@@ -28,7 +28,11 @@ Here is a little schema to help you visualize it:
 112 days with pills x 2 pictures a day = 224 pictures
 ```
 
-I ended up with 224 pictures, yes. I am calling this my _chemo pills collage_, which I discovered is also a pretty visual and intuitive (for me!) way to look back in time (so perhaps I could also call it _chemo pills calendar_?). I annotated some of the images, click the button below to look at some of the _hotspots_ in the collage and hover with your mouse to see what little memory they unlock!
+**I ended up with 224 pictures, yes**.
+
+I am calling this my _chemo pills collage_, which I discovered is also a pretty visual and intuitive (for me!) way to look back in time (so perhaps I could also call it _chemo pills calendar_?).
+
+I annotated some of the images: you can click the button below to look at some of the _hotspots_ in the collage, and if you hover with your mouse you can see what little memory they unlock!
 
 <button id="toggle-hotspots" class="hotspot-toggle-btn">show hotspots</button>
 
@@ -37,3 +41,4 @@ I ended up with 224 pictures, yes. I am calling this my _chemo pills collage_, w
 </div>
 
 
+### 12 hours away

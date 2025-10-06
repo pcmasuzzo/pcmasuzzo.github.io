@@ -8,7 +8,7 @@ permalink: /pages/i-got-up/
 
 # I GOT UP
 
-Welcome to the **I GOT UP** project. I started this project around june 2025 and finished it off around august 2025. The idea behind it is that "**TODAY IS TODAY**" and that only this moment really matters in life.
+Welcome to the **I GOT UP** project. I started this project around June 2025 and finished it off around August 2025. The idea behind it is that "**TODAY IS TODAY**" and that only this moment really matters in life.
 
 I explain the scope and life of the project in [this newsletter](https://paolamasuzzo.substack.com/p/oggi-e-oggi).
 In short, I reproduced the [I GOT UP](https://flashbak.com/creativity-from-boredom-and-routine-on-kawaras-i-got-up-postcards-1968-1979-418177/)

@@ -109,7 +109,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Add hover listeners to each gallery item
   galleryItems.forEach((item) => {
-    
     const innerDiv = item.querySelector('div[data-image-url]');
     if (!innerDiv) return;
 
@@ -117,48 +116,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!imageUrl) return;
 
     const filename = imageUrl.split('/').pop();
-    
-    item.dataset.id = filename; // For tracking which item was tapped
-
-    document.addEventListener('click', function() {
-        if (!hotspotsEnabled || !isTouchDevice()) return;
-        hideHotspot();
-        });
     const hotspotData = hotspotMap.get(filename);
 
     if (hotspotData) {
-        // Desktop: hover behavior
-        item.addEventListener('mouseenter', function() {
-            if (!hotspotsEnabled || isTouchDevice()) return;
-            showHotspot(hotspotData, item);
-        });
+      item.addEventListener('mouseenter', function(e) {
+        if (!hotspotsEnabled) return;
+        showHotspot(hotspotData, item);
+      });
 
-        item.addEventListener('mouseleave', function() {
-            if (!hotspotsEnabled || isTouchDevice()) return;
-            hideHotspot();
-        });
-
-        // Mobile: click/tap behavior
-        item.addEventListener('click', function(e) {
-            if (!hotspotsEnabled || !isTouchDevice()) return;
-
-            e.stopPropagation(); // Prevent click from bubbling up
-            const isSameItem = infoBox.dataset.source === item.dataset.id;
-
-            if (isSameItem) {
-            hideHotspot(); // Hide if same image tapped again
-            } else {
-            showHotspot(hotspotData, item);
-            infoBox.dataset.source = item.dataset.id; // Track the source
-            }
-        });
+      item.addEventListener('mouseleave', function() {
+        if (!hotspotsEnabled) return;
+        hideHotspot();
+      });
     }
-
   });
-
-  function isTouchDevice() {
-  return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-}
 
   function applyHotspotHighlights() {
     galleryItems.forEach((item) => {
@@ -198,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Hide hotspot: remove highlights and hide info box
-  function hideHotspot() {    
+  function hideHotspot() {
     // Hide info box
     infoBox.classList.remove('active');
   }

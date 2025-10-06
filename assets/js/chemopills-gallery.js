@@ -109,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Add hover listeners to each gallery item
   galleryItems.forEach((item) => {
+    
     const innerDiv = item.querySelector('div[data-image-url]');
     if (!innerDiv) return;
 
@@ -116,20 +117,48 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!imageUrl) return;
 
     const filename = imageUrl.split('/').pop();
+    
+    item.dataset.id = filename; // For tracking which item was tapped
+
+    document.addEventListener('click', function() {
+        if (!hotspotsEnabled || !isTouchDevice()) return;
+        hideHotspot();
+        });
     const hotspotData = hotspotMap.get(filename);
 
     if (hotspotData) {
-      item.addEventListener('mouseenter', function(e) {
-        if (!hotspotsEnabled) return;
-        showHotspot(hotspotData, item);
-      });
+        // Desktop: hover behavior
+        item.addEventListener('mouseenter', function() {
+            if (!hotspotsEnabled || isTouchDevice()) return;
+            showHotspot(hotspotData, item);
+        });
 
-      item.addEventListener('mouseleave', function() {
-        if (!hotspotsEnabled) return;
-        hideHotspot();
-      });
+        item.addEventListener('mouseleave', function() {
+            if (!hotspotsEnabled || isTouchDevice()) return;
+            hideHotspot();
+        });
+
+        // Mobile: click/tap behavior
+        item.addEventListener('click', function(e) {
+            if (!hotspotsEnabled || !isTouchDevice()) return;
+
+            e.stopPropagation(); // Prevent click from bubbling up
+            const isSameItem = infoBox.dataset.source === item.dataset.id;
+
+            if (isSameItem) {
+            hideHotspot(); // Hide if same image tapped again
+            } else {
+            showHotspot(hotspotData, item);
+            infoBox.dataset.source = item.dataset.id; // Track the source
+            }
+        });
     }
+
   });
+
+  function isTouchDevice() {
+  return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+}
 
   function applyHotspotHighlights() {
     galleryItems.forEach((item) => {
@@ -155,19 +184,6 @@ document.addEventListener('DOMContentLoaded', function() {
   function showHotspot(hotspotData, hoveredItem) {
     // Set the info text
     infoBox.textContent = hotspotData.info;
-    
-    // Highlight all related images (important for groups!)
-/*     hotspotData.relatedImages.forEach(relatedFilename => {
-      galleryItems.forEach(item => {
-        const innerDiv = item.querySelector('div[data-image-url]');
-        if (innerDiv) {
-          const url = innerDiv.getAttribute('data-image-url');
-          if (url && url.endsWith(relatedFilename)) {
-            item.classList.add('hotspot-active');
-          }
-        }
-      });
-    }); */
     
     // Position the info box above the hovered image
     const rect = hoveredItem.getBoundingClientRect();

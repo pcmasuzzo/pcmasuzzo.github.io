@@ -25,11 +25,13 @@ for date, times in dates.items():
     if len(times) == 2:
         morning, evening = sorted(times)
         diff = evening - morning
+        hours, minutes, seconds = map(int, str(diff).split(':'))
         records.append({
             'day': date,
             'morning': morning.time(),
             'evening': evening.time(),
-            'difference': str(diff)
+            'difference': str(diff),
+            'difference_hours': hours + (minutes / 60) + (seconds / 3600)
         })
 
 df = pd.DataFrame(records)

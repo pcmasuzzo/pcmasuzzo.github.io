@@ -90,61 +90,74 @@ document.addEventListener('DOMContentLoaded', function() {
   // Button click handler - toggles hotspots on/off
   if (toggleButton) {
     toggleButton.addEventListener('click', function() {
-      hotspotsEnabled = !hotspotsEnabled; // Toggle true/false
-      
-      // Update button text based on state
+      hotspotsEnabled = !hotspotsEnabled;
+
       if (hotspotsEnabled) {
-        toggleButton.textContent = 'Hide Hotspots';
+        toggleButton.textContent = 'hide hotspots';
         toggleButton.classList.add('active');
+        applyHotspotHighlights(); 
       } else {
-        toggleButton.textContent = 'Show Hotspots';
+        toggleButton.textContent = 'show hotspots';
         toggleButton.classList.remove('active');
-        hideHotspot(); // Hide any currently visible hotspot
+        removeHotspotHighlights(); 
+        hideHotspot(); 
       }
-      
+
       console.log('Hotspots enabled:', hotspotsEnabled);
     });
   }
   
   // Add hover listeners to each gallery item
   galleryItems.forEach((item) => {
-    
     const innerDiv = item.querySelector('div[data-image-url]');
     if (!innerDiv) return;
-    
-    // Get filename from URL: "/path/to/pill_001.jpg" → "pill_001.jpg"
+
     const imageUrl = innerDiv.getAttribute('data-image-url');
     if (!imageUrl) return;
-    
+
     const filename = imageUrl.split('/').pop();
-    
-    // Check if this image is a hotspot
     const hotspotData = hotspotMap.get(filename);
-    
+
     if (hotspotData) {
-      // This IS a hotspot! Add hover events
-      
       item.addEventListener('mouseenter', function(e) {
-        // Check if hotspots are enabled before showing
         if (!hotspotsEnabled) return;
         showHotspot(hotspotData, item);
       });
-      
+
       item.addEventListener('mouseleave', function() {
-        // Check if hotspots are enabled before hiding
         if (!hotspotsEnabled) return;
         hideHotspot();
       });
     }
   });
+
+  function applyHotspotHighlights() {
+    galleryItems.forEach((item) => {
+      const innerDiv = item.querySelector('div[data-image-url]');
+      if (!innerDiv) return;
+
+      const imageUrl = innerDiv.getAttribute('data-image-url');
+      const filename = imageUrl.split('/').pop();
+
+      if (hotspotMap.has(filename)) {
+        item.classList.add('hotspot-active');
+      }
+    });
+  }
   
+  function removeHotspotHighlights() {
+    galleryItems.forEach((item) => {
+      item.classList.remove('hotspot-active');
+    });
+  }
+
   // Show hotspot: display info and highlight related images
   function showHotspot(hotspotData, hoveredItem) {
     // Set the info text
     infoBox.textContent = hotspotData.info;
     
     // Highlight all related images (important for groups!)
-    hotspotData.relatedImages.forEach(relatedFilename => {
+/*     hotspotData.relatedImages.forEach(relatedFilename => {
       galleryItems.forEach(item => {
         const innerDiv = item.querySelector('div[data-image-url]');
         if (innerDiv) {
@@ -154,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
       });
-    });
+    }); */
     
     // Position the info box above the hovered image
     const rect = hoveredItem.getBoundingClientRect();

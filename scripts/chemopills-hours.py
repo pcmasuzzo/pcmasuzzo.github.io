@@ -2,6 +2,7 @@ import os
 from datetime import datetime
 from collections import defaultdict
 import pandas as pd
+import numpy as np
 
 input_dir = 'assets/images/cancer/chemo-pills'
 
@@ -36,7 +37,17 @@ for date, times in dates.items():
 
 df = pd.DataFrame(records)
 df.to_csv('data/chemopills-hours.csv', index=False)
-# Display the DataFrame
-print(df)
+
+counts, bin_edges = np.histogram(df['difference_hours'], bins=10)
+
+# Format result
+histogram_df = pd.DataFrame({
+    'bucket': bin_edges[:-1],
+    'frequency': counts
+})
+
+histogram_df.to_csv('data/chemopills-hours-hist.csv', index=False)
+
+
    
         

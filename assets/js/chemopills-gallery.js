@@ -17,7 +17,7 @@ const hotspots = [
 
   {
     image: "IMG_20240811_075855.jpg",
-    info: "this yellow/orange placemat means I was having lunch at myu friend's place :)",
+    info: "this yellow/orange placemat means I was having lunch at my friend's place :)",
     type: "single"
   },
   

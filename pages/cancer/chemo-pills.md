@@ -16,7 +16,10 @@ My oncologist advised an extra six months of oral chemotherapy, and in August 20
 ### two pictures a day
 When I started assuming the oral chemotherapy, I thought I needed something to help me record the moment, something that would remind me I was going through the extra pain for a reason, in order to survive, to have a real chance at it. 
 
-So I started taking pictures of the pills, two pictures a day for every day of chemotherapy. Here is a little schema to help you visualize it:
+So I started taking pictures of the pills, two pictures a day for every day of chemotherapy.
+I started on August 7th 2024 and finished on January 14th 2025.
+
+Here is a little schema to help you visualize it:
 
 ```
 8 cycles of 3 weeks each = 24 weeks = 6 months
@@ -25,10 +28,9 @@ So I started taking pictures of the pills, two pictures a day for every day of c
 112 days with pills x 2 pictures a day = 224 pictures
 ```
 
-I ended up with 224 pictures, yes.
-I started on August 7th 2024 and finished on January 14th 2025.
+I ended up with 224 pictures, yes. I am calling this my _chemo pills collage_, which I discovered is also a pretty visual and intuitive (for me!) way to look back in time (so perhaps I could also call it _chemo pills calendar_?). I annotated some of the images, click the button below to look at some of the _hotspots_ in the collage and hover with your mouse to see what little memory they unlock!
 
-Here is the full _chemo pills collage_, which I am now busy annotating.
+<button id="toggle-hotspots" class="hotspot-toggle-btn">show hotspots</button>
 
 <div class="gallery">
   {% include chemopills-gallery.html %}

@@ -45,6 +45,18 @@ document.addEventListener('DOMContentLoaded', function() {
   
   const galleryItems = document.querySelectorAll('.gallery-item');
   
+  // Track whether hotspots are enabled or disabled
+  let hotspotsEnabled = false;
+  
+  // Get the toggle button
+  const toggleButton = document.getElementById('toggle-hotspots');
+  
+  // If button doesn't exist, log warning and enable hotspots by default
+  if (!toggleButton) {
+    console.warn('Toggle button not found. Hotspots enabled by default.');
+    hotspotsEnabled = true;
+  }
+  
   // Create the info box that will show hotspot information
   const infoBox = document.createElement('div');
   infoBox.className = 'hotspot-info';
@@ -75,6 +87,25 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log('Gallery initialized. Total images:', galleryItems.length);
   console.log('Hotspots defined:', hotspots.length);
   
+  // Button click handler - toggles hotspots on/off
+  if (toggleButton) {
+    toggleButton.addEventListener('click', function() {
+      hotspotsEnabled = !hotspotsEnabled; // Toggle true/false
+      
+      // Update button text based on state
+      if (hotspotsEnabled) {
+        toggleButton.textContent = 'Hide Hotspots';
+        toggleButton.classList.add('active');
+      } else {
+        toggleButton.textContent = 'Show Hotspots';
+        toggleButton.classList.remove('active');
+        hideHotspot(); // Hide any currently visible hotspot
+      }
+      
+      console.log('Hotspots enabled:', hotspotsEnabled);
+    });
+  }
+  
   // Add hover listeners to each gallery item
   galleryItems.forEach((item) => {
     
@@ -94,10 +125,14 @@ document.addEventListener('DOMContentLoaded', function() {
       // This IS a hotspot! Add hover events
       
       item.addEventListener('mouseenter', function(e) {
+        // Check if hotspots are enabled before showing
+        if (!hotspotsEnabled) return;
         showHotspot(hotspotData, item);
       });
       
       item.addEventListener('mouseleave', function() {
+        // Check if hotspots are enabled before hiding
+        if (!hotspotsEnabled) return;
         hideHotspot();
       });
     }

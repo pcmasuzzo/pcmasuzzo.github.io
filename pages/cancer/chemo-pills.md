@@ -60,5 +60,13 @@ _Why did this matter?_ At the hospital they told me it was important for me to t
 </div>
 
 
+<div class="flourish-embed flourish-chart" data-src="visualisation/25495373">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/25495373/thumbnail" width="100%" alt="chart visualization" />
+  </noscript>
+</div>
+
+
 
 You can find the [data here](/data/chemopills-hours.csv).

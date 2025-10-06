@@ -38,7 +38,7 @@ for date, times in dates.items():
 df = pd.DataFrame(records)
 df.to_csv('data/chemopills-hours.csv', index=False)
 
-counts, bin_edges = np.histogram(df['difference_hours'], bins=10)
+counts, bin_edges = np.histogram(df['difference_hours'], bins=20)
 
 # Format result
 histogram_df = pd.DataFrame({

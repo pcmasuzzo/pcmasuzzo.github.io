@@ -182,12 +182,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Hide hotspot: remove highlights and hide info box
-  function hideHotspot() {
-    // Remove all highlights
-    galleryItems.forEach(item => {
-      item.classList.remove('hotspot-active');
-    });
-    
+  function hideHotspot() {    
     // Hide info box
     infoBox.classList.remove('active');
   }

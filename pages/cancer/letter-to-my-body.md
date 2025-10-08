@@ -5,7 +5,8 @@ permalink: /pages/cancer/letter-to-my-body/
 ---
 
 ### letter to my body
-Having cancer comes with an unspoken forced cohabitation between you and your body. There can be no escape. I wrote a lot of letters to my body, I selected this one for my cancer archive. I first published it in italian [here](https://paolamasuzzo.substack.com/p/io-e-te).
+Having cancer comes with an unspoken forced cohabitation between you and your body. There can be no escape. During my treatment, and still after, I wrote a lot of letters to my body.  
+I selected this one for my cancer archive. I first published it in italian [here](https://paolamasuzzo.substack.com/p/io-e-te).
 
 Hope you enjoy reading it. 
 
@@ -18,16 +19,16 @@ And love me while it's still a crime
 I'm trying to live. And living is a business made of air, I breathe it through my nostrils. Hot and heavy. Living is first and foremost a business of the body. It's always me and my body, it's still me and my body, we're together, and I can't leave it. I often think that we'll never leave each other again, if not on the threshold of the last step, the step of death.
 In some trembling moments, when the air gets heavier, there seems to be no room for anything else, for anyone else.
 
-I am her and she is me.
+> I am her and she is me.
 
 We are trying to live.
 
-I’m trying to stay inside my body now, relearning how to walk like a little black filly—dirty, curious, shy, afraid. But still beautiful. I want to reclaim the time I lost—not the time cancer took from me, no. That loss came much earlier, long before the diagnosis. Long, long before.
-I'm trying to live through my body—and through the bodies of my fellow sufferers. Those who have endured what I have: not just the suffering of cancer, but the deeper suffering of loss. Of consumption. Of the final unraveling of things.
+I’m trying to stay inside my body now, relearning how to walk like a little black filly—dirty, curious, shy, afraid. Still beautiful. I want to reclaim the time I lost—not the time cancer took from me, no. I am speaking of a loss that came much earlier, long before the diagnosis. Long, long before.
+I'm trying to live through my body—and through the bodies of my fellow sufferers. Those who have endured what I have: not just the suffering of cancer, but the deeper suffering of loss. Of consumption. The final unraveling of all the things.
 
-My companions in misfortune: eight people, eight stories, eight bodies. Mine is the ninth. That’s a choice I’ve made: to come last, to be the end.
+My companions in misfortune: eight people, eight stories, eight bodies. Mine is number nine. That’s a choice I’ve made: to come last, to be the end.
 
-I am the closing credits.
+>I am the closing credits.
 
 Every week we breathe the same air, we drink the same water, we tell each other the same things, always using different words. We sit on the same chairs, we step on the same floor.
 I struggle a lot, I struggle to be with myself and I struggle to be with them, even if I am growing fond of them all.
@@ -43,7 +44,7 @@ And like this, every now and then, I imagine myself leaving my body and entering
 It's an exercise I did a lot when I was a kid, one that in truth I've never stopped doing. It requires imagination and a pinch of madness. I possess both in abundance.
 I close my eyes and open them again, I imagine myself for a few moments in the body of one of them, I am body number one, then four, then seven.
 
-No longer the closing credits.
+>No longer the closing credits.
 
 My hair is red, my skin pale, my eyes are blue like the ocean. I am shorter, no, I am taller, my nose is proud, I have slender legs, long legs, broad shoulders. I close my eyes, I open them again. I return to my own body. I breathe. The air is hot.
 
@@ -52,9 +53,9 @@ My hair is red, my skin pale, my eyes are blue like the ocean. I am shorter, no,
 But they don’t know that I write to you all the time. They don’t know I could never tire of it.
 And they don’t understand that even this—writing to you—is a way of staying outside you. A way to keep you at arm’s length. To make sure I see you, yes, but not too clearly. Not too deeply.
 
-So I won’t feel too much.  
-So I won’t love too much.  
-So I won’t live too much. 
+>So I won’t feel too much.  
+>So I won’t love too much.  
+>So I won’t live too much. 
 
 _Coward_ - I tell myself.  
 How I wish I loved you more.  
@@ -65,7 +66,7 @@ In reality, I wish I had started sooner, I wish I had loved you like this before
 I no longer want to walk beside you, I no longer want to be near you to escape your eyes, often looking away, to the other side of us. This span of distance between us is an ocean wide, and it makes no sense, it makes no sense at all.  
 I only exist if you protect me, and you—you only exist if I protect you.
 
-I am you and you are me.
+>I am you and you are me.
 
 How selfish I have been, to resign myself so quickly to this nature of mine that just can't cope with concrete, material things, those that are made of blood and earth. For the entirety of my life, you have said to me things I never understood.
 
@@ -83,17 +84,14 @@ I would tell you that the glasses are thick but cute. That the fuzzy hair is nor
 I would tell you that our straight hair was beautiful, yes, but curly hair looks good on you, too. And that it's okay if you don't want to wear makeup, that you don't have to because everyone else does it.  
 I would tell you that you are different, you feel different, and maybe it's true, it's certainly true, but different is beautiful, it's rich, it's unique, and I love you just the way you are.
 
-I love you just the way you are.
+>I love you just the way you are.
 
 I'm telling you now, and I know it's true, but I know that this love is not a band-aid, it doesn't heal, and it doesn't erase. 
 
 I would like to hear from you, too.  
-Write me a letter, now and then. Use these small, round, smooth, olive-skinned hands we have.  
-Use them to tell me that I didn't hurt you too much, use them to absolve me, give me the forgiveness I've been seeking for decades now, and that doesn't come, but I don't give up.
+Write me a letter, now and then. Use these small, round, smooth, olive-skinned hands we have. Use them to tell me that I didn't hurt you too much, use them to absolve me, give me the forgiveness I've been seeking for decades now, and that doesn't come, but I don't give up.
 
-Tell me that I didn't do everything wrong, tell me that I didn't hurt you too much, when as a child I decided that we would play alone, you and me, that it was okay to spend hours and hours on books, to invent games and to invent words and never share them with anyone else.  
-Tell me that it didn't cost you too much to survive, when I fed you too much or too little.  
-Tell me that you were okay with staying in the shade, being slow with me, away from the spotlight, away from the sun, on our marble steps, cold and hard.
+Tell me that I didn't do everything wrong, tell me that I didn't hurt you too much, when as a child I decided that we would play alone, you and me, that it was okay to spend hours and hours on books, to invent games and to invent words and never share them with anyone else. Tell me that it didn't cost you too much to survive, when I fed you too much or too little. Tell me that you were okay with staying in the shade, being slow with me, away from the spotlight, away from the sun, on our marble steps, cold and hard.
 
 Just don't ask me for forgiveness, ever, because there is nothing I need to forgive you for.
 

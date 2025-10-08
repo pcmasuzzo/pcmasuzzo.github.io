@@ -46,17 +46,13 @@ Based on the photos I took, I was also able to reconstruct the exact timestamps 
 
 _Why did this matter?_ At the hospital they told me it was important for me to take the pills with a lot of water and with **roughly 12 hours** between the two moments. Well, I am a sucker for instructions, and the distribution of the time lags shows it!
 
-<div style="position: relative; width: 100%; padding-bottom: 40%; height: 0; max-height: 600px">
-  <div class="flourish-embed" data-src="visualisation/25494510" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-    <noscript>
-      <img 
-        src="https://public.flourish.studio/visualisation/25494510/thumbnail" 
-        width="100%" 
-        alt="distribution of time lags in hours between morning and evening chemotherapy pills" 
-      />
+
+
+<div class="flourish-embed" data-src="visualisation/25494510">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <noscript>
+    <img src="https://public.flourish.studio/visualisation/25494510/thumbnail" width="100%" alt="visualization" />
     </noscript>
-  </div>
 </div>
 
 You can find the [data here](/data/chemopills-hours.csv).

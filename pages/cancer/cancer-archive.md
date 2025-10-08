@@ -16,14 +16,16 @@ But, as Derrida brilliantly put it many years ago, the form of recording, writin
 
 > the archive produces the event as much as it records it
 
-I have been surviving cancer for two years, now. Along the way, between chemotherapy and radiotherapy, and across surgeries and again chemotherapy, I found solace in the written words, in art, in companionship, in data, and mostly in the magic mix of it all.
+**I have been surviving cancer for two years, now.**
 
-here are some silly little things that kept me floating when I thought I was going to drown.
+Along the way, between chemotherapy and radiotherapy, and across surgeries and again chemotherapy, I found solace in the written words, in art, in companionship, in data, and mostly in the magic mix of it all.
+
+Here are some silly little things that kept me floating when I thought I was going to drown.
 
 - IG stories
 - **[blood data](/pages/cancer/blood-data/)**
 - **[tumor size](/pages/cancer/tumor-size/)**
 - **[chemo pills](/pages/cancer/chemo-pills/)**
+- **[letter to my body](/pages/cancer/letter-to-my-body/)**
 - pictures of me
-- letter to my body
 

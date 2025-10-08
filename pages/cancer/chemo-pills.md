@@ -51,7 +51,7 @@ _Why did this matter?_ At the hospital they told me it was important for me to t
 <div class="flourish-embed" data-src="visualisation/25494510">
   <script src="https://public.flourish.studio/resources/embed.js"></script>
   <noscript>
-    <img src="https://public.flourish.studio/visualisation/25494510/thumbnail" width="100%" alt="visualization" />
+    <img src="https://public.flourish.studio/visualisation/25494510/thumbnail" alt="distribution of time lags in hours between morning and evening chemotherapy pills" />
     </noscript>
 </div>
 

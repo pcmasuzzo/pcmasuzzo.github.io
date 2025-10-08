@@ -5,7 +5,7 @@
 const hotspots = [
   {
     image: "IMG_20240807_075845.jpg",
-    info: "first day of chemotherapy: started with low dosage, 3 pills of 500 mg",
+    info: "first day of chemotherapy: I started with the lowest dosage, 3 pills of 500mg",
     type: "single"
   },
 
@@ -23,13 +23,43 @@ const hotspots = [
   
   {
     image: "IMG_20240814_074233.jpg",
-    info: "a blood test after the first 7 days showed I was doing OK enough to dose it up a little",
+    info: "a blood test after the first 7 days showed I was doing OK enough to add another pill of 150mg",
     type: "single"
   },
 
   {
     image: "IMG_20240828_073015.jpg",
-    info: "my dose went up again: 3 pills of 500 mg + 2 pills of 150 mg",
+    info: "after two full weeks, my dose went up again: 3 pills of 500mg + 2 pills of 150mg",
+    type: "single"
+  },
+
+  {
+    image: "IMG_20240904_195922.jpg",
+    info: "this was on my birthday: there were rainbow napkins and a lot of feelings",
+    type: "single"
+  },
+
+  {
+    image: "IMG_20240918_075028.jpg",
+    info: "the dose went up again, from 1.8g to 2.15g",
+    type: "single"
+  },
+
+  {
+    image: "IMG_20241017_200259.jpg",
+    info: "we must have had guests over for dinner, though I can't explain the napkin choice for october...",
+    type: "single"
+  },
+
+  {
+    image: "IMG_20241122_194350.jpg",
+    info: "I got an eggplant dish from my friend and I started using it straight away!",
+    type: "single"
+  },
+
+  {
+    image: "IMG_20241123_195830.jpg",
+    info: "another funny napkin: this was for Andrea's birthday <3",
     type: "single"
   },
 
@@ -39,7 +69,13 @@ const hotspots = [
         "IMG_20250103_075840.jpg"],
     info: "the first chemo of 2025: I use the read tablecloth for NYE!",
     type: "group"
-  }
+  },
+
+  {
+    image: "IMG_20250114_200505.jpg",
+    info: "last day of chemotherapy - yay!",
+    type: "single"
+  },
   
 ];
 

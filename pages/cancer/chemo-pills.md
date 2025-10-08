@@ -42,7 +42,7 @@ I annotated some of the images: you can click the button below to look at some o
 
 
 ### 12 hours away
-Based on the photos I took, I was able to reconstruct the exact timestamps for when I took my medication on each day of chemotherapy. Using these timestamps, I calculated the time interval between the morning and evening doses for each day.
+Based on the photos I took, I was also able to reconstruct the exact timestamps at which I took my medication on each day of chemotherapy. Using these timestamps, I then calculated the time interval between the morning and evening doses for that day.
 
 _Why did this matter?_ At the hospital they told me it was important for me to take the pills with a lot of water and with **roughly 12 hours** between the two moments. Well, I am a sucker for instructions, and the distribution of the time lags shows it!
 
@@ -59,14 +59,5 @@ _Why did this matter?_ At the hospital they told me it was important for me to t
   </div>
 </div>
 
-
-<div class="flourish-embed flourish-chart" data-src="visualisation/25495373">
-  <script src="https://public.flourish.studio/resources/embed.js"></script>
-  <noscript>
-    <img src="https://public.flourish.studio/visualisation/25495373/thumbnail" width="100%" alt="chart visualization" />
-  </noscript>
-</div>
-
-
-
 You can find the [data here](/data/chemopills-hours.csv).
+Not sure what you'd want to do with it, but nevertheless :)

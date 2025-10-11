@@ -22,8 +22,8 @@ Along the way, between chemotherapy and radiotherapy, and across surgeries and a
 
 Here are some silly little things that kept me floating when I thought I was going to drown.
 
-- **[blood data](/pages/cancer/blood-data/)**
-- **[tumor size](/pages/cancer/tumor-size/)**
-- **[chemo pills](/pages/cancer/chemo-pills/)**
+- **[what's in my blood](/pages/cancer/blood-data/)**
+- **[how big is my tumor](/pages/cancer/tumor-size/)**
+- **[my chemo pills collage](/pages/cancer/chemo-pills/)**
 - **[letter to my body](/pages/cancer/letter-to-my-body/)**
 

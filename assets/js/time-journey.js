@@ -1,69 +1,64 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const timelineEntries = document.querySelectorAll('.timeline-entry');
-  const basePath = '/assets/images/cancer/time-travel/';
-  
-  // Click handler for timeline entries
-  timelineEntries.forEach(entry => {
-    const dot = entry.querySelector('.timeline-dot');
-    const dateLabel = entry.querySelector('.timeline-date');
-    const closeBtn = entry.querySelector('.panel-close');
-    
-    // Open panel when clicking dot or date
-    [dot, dateLabel].forEach(el => {
-      el.addEventListener('click', function(e) {
-        e.stopPropagation();
-        
-        // Close all other panels
-        timelineEntries.forEach(other => {
-          if (other !== entry) {
-            other.classList.remove('active');
-          }
-        });
-        
-        // Toggle this panel
-        entry.classList.toggle('active');
-        
-        // Load images if not already loaded
-        if (entry.classList.contains('active')) {
-          loadImages(entry);
+document.addEventListener("DOMContentLoaded", () => {
+  const entries = document.querySelectorAll(".timeline-entry");
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const lightboxClose = document.querySelector(".lightbox-close");
+
+  // ---- PANEL TOGGLING ----
+  entries.forEach(entry => {
+    const panel = entry.querySelector(".timeline-panel");
+    const closeBtn = entry.querySelector(".panel-close");
+
+    // Open/close panel when timeline entry is clicked
+    entry.addEventListener("click", e => {
+      // Avoid triggering if clicking inside the panel itself
+      if (e.target.closest(".timeline-panel")) return;
+
+      // Close all other panels first
+      document.querySelectorAll(".timeline-entry.active").forEach(openEntry => {
+        if (openEntry !== entry) {
+          openEntry.classList.remove("active");
         }
       });
+
+      // Toggle current one
+      entry.classList.toggle("active");
     });
-    
-    // Close button handler
-    if (closeBtn) {
-      closeBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        entry.classList.remove('active');
-      });
+
+    // Close panel button
+    closeBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      entry.classList.remove("active");
+    });
+  });
+
+  // ---- LIGHTBOX ----
+  document.body.addEventListener("click", e => {
+    if (e.target.matches(".event-images img")) {
+      lightboxImg.src = e.target.src;
+      lightbox.classList.add("active");
     }
   });
-  
-  // Load images for an entry
-  function loadImages(entry) {
-    const imageContainers = entry.querySelectorAll('.event-images');
-    
-    imageContainers.forEach(container => {
-      // Skip if already loaded
-      if (container.dataset.loaded === 'true') return;
-      
-      const folder = container.dataset.folder;
-      const fullPath = basePath + folder;
-      
-      // For now, we'll need to manually specify images in YAML
-      // Or use a directory listing approach (requires server-side)
-      // This is a placeholder that will be enhanced
-      
-      container.dataset.loaded = 'true';
-    });
-  }
-  
-  // Close panel when clicking outside
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.timeline-entry')) {
-      timelineEntries.forEach(entry => {
-        entry.classList.remove('active');
-      });
+
+  // Close lightbox
+  lightboxClose.addEventListener("click", () => {
+    lightbox.classList.remove("active");
+    lightboxImg.src = "";
+  });
+
+  // Close on overlay click
+  lightbox.addEventListener("click", e => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove("active");
+      lightboxImg.src = "";
+    }
+  });
+
+  // Close on ESC key
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape" && lightbox.classList.contains("active")) {
+      lightbox.classList.remove("active");
+      lightboxImg.src = "";
     }
   });
 });

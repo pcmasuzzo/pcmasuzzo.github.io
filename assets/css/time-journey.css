@@ -37,6 +37,13 @@
   margin-top: 5px;
   cursor: pointer; /* indicate it’s clickable */
 }
+
+.timeline-dot.active-dot {
+  background: #3fd09b; /* or any highlight color */
+  transform: scale(1.3);
+  transition: transform 0.2s, background 0.2s;
+}
+
 .timeline-content {
   flex: 1;
 }

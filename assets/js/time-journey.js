@@ -1,24 +1,35 @@
 document.addEventListener("DOMContentLoaded", function() {
   // -------------------------
-  // Timeline panels
+  // Timeline panels with toggle
   // -------------------------
   const timelineDots = document.querySelectorAll(".timeline-dot");
   const timelinePanels = document.querySelectorAll(".timeline-panel");
 
+  // Remove active class from all dots
+  function clearActiveDots() {
+    timelineDots.forEach(dot => dot.classList.remove("active-dot"));
+  }
+
   timelineDots.forEach(dot => {
     dot.addEventListener("click", () => {
-      // Collapse all panels
-      timelinePanels.forEach(panel => panel.style.display = "none");
-
-      // Open the corresponding panel
       const entry = dot.closest(".timeline-entry");
       const panel = entry.querySelector(".timeline-panel");
-      if (panel) {
-        panel.style.display = "block";
 
-        // Scroll entry into view smoothly
+      if (!panel) return;
+
+      const isOpen = panel.style.display === "block";
+
+      // Close all panels first
+      timelinePanels.forEach(p => (p.style.display = "none"));
+      clearActiveDots();
+
+      if (!isOpen) {
+        // Open this panel
+        panel.style.display = "block";
+        dot.classList.add("active-dot");
         entry.scrollIntoView({ behavior: "smooth", block: "start" });
       }
+      // else: it was open, now closed; no active dot
     });
   });
 
@@ -30,6 +41,9 @@ document.addEventListener("DOMContentLoaded", function() {
     btn.addEventListener("click", () => {
       const panel = btn.closest(".timeline-panel");
       if (panel) panel.style.display = "none";
+
+      const dot = btn.closest(".timeline-entry").querySelector(".timeline-dot");
+      if (dot) dot.classList.remove("active-dot");
     });
   });
 

@@ -6,7 +6,7 @@ layout: default
   <div class="timeline">
     {% for entry in site.data["time-journey"] %}
       <div class="timeline-entry">
-        <div class="timeline-dot" data-entry-index="{{ forloop.index0 }}"></div>
+        <div class="timeline-dot"></div>
         <div class="timeline-content">
           <div class="timeline-date">{{ entry.date | date: "%b %d, %Y" }}</div>
 
@@ -46,4 +46,10 @@ layout: default
       </div>
     {% endfor %}
   </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&times;</button>
+  <img src="" alt="" id="lightbox-img" />
 </div>

@@ -18,7 +18,7 @@
   top: 0;
   bottom: 0;
   width: 3px;
-  background: #03719c;
+  background: #3498db;
 }
 
 .timeline-entry {
@@ -35,15 +35,14 @@
   flex-shrink: 0;
   margin-right: 20px;
   margin-top: 5px;
-  cursor: pointer; 
-}
-
-.timeline-dot.active-dot {
-  background: #03719c; 
-  transform: scale(1.3);
+  cursor: pointer;
   transition: transform 0.2s, background 0.2s;
 }
 
+.timeline-dot.active-dot {
+  background: #03719c;
+  transform: scale(1.3);
+}
 
 .timeline-content {
   flex: 1;
@@ -58,7 +57,7 @@
   background: #eee8a9;
   padding: 15px;
   border-radius: 8px;
-  display: none; /* hide panels initially */
+  display: none; /* hidden by default */
 }
 
 .panel-header {

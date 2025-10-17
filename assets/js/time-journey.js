@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   timelineDots.forEach(dot => {
     dot.addEventListener("click", (e) => {
-      e.stopPropagation(); // prevent conflicts with delegated clicks
+      e.stopPropagation();
       const entry = dot.closest(".timeline-entry");
       const panel = entry.querySelector(".timeline-panel");
       if (!panel) return;
@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // Lightbox: event delegation
   // -------------------------
   if (lightbox && lightboxImg && lightboxClose) {
-    // Delegate click only for images
     document.querySelector(".timeline-container").addEventListener("click", function(e) {
       const img = e.target.closest(".lightbox-trigger");
       if (!img) return;

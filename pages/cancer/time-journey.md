@@ -3,7 +3,7 @@ layout: default
 custom_css: time-travel.css
 custom_js: time-travel.js
 title: "time travel"
-permalink: /pages/cancer/time-travel/
+permalink: /pages/cancer/time-journey/
 ---
 
 ### traveling back in time

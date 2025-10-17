@@ -11,12 +11,11 @@ layout: default
     {% for entry in site.data["time-journey"] %}
       {% assign current_date = entry.date | date: "%s" %}
       {% assign days_from_start = current_date | minus: first_date %}
-      {% assign position_percent = days_from_start | times: 100.0 | divided_by: total_range %}
-
-      <div class="timeline-entry" 
-           data-date="{{ entry.date }}"
-           data-events='{{ entry.events | jsonify }}'
-           style="margin-top: {{ position_percent }}%;">
+      <div class="timeline-entry"
+        data-date="{{ entry.date }}"
+        data-events='{{ entry.events | jsonify }}'
+        style="margin-top: {{ forloop.index0 | times: 80 }}px;">
+      
         <div class="timeline-dot"></div>
         <div class="timeline-date">{{ entry.date | date: "%b %d, %Y" }}</div>
 

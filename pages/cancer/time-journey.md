@@ -1,7 +1,7 @@
 ---
 layout: default
-custom_css: time-travel.css
-custom_js: time-travel.js
+custom_css: time-journey.css
+custom_js: time-journey.js
 title: "time travel"
 permalink: /pages/cancer/time-journey/
 ---

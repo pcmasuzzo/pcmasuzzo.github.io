@@ -1,56 +1,70 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Lightbox
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
-  const triggers = document.querySelectorAll(".lightbox-trigger");
-  const lightboxClose = document.querySelector(".lightbox-close");
-
-  triggers.forEach(img => {
-    img.addEventListener("click", () => {
-      lightbox.style.display = "flex";
-      lightboxImg.src = img.src;
-      lightboxImg.alt = img.alt;
-    });
-  });
-
-  lightboxClose.addEventListener("click", () => {
-    lightbox.style.display = "none";
-    lightboxImg.src = "";
-    lightboxImg.alt = "";
-  });
-
-  lightbox.addEventListener("click", e => {
-    if (e.target === lightbox) {
-      lightbox.style.display = "none";
-      lightboxImg.src = "";
-      lightboxImg.alt = "";
-    }
-  });
-
-  // Panel toggle
+  // -------------------------
+  // Timeline panels
+  // -------------------------
   const timelineDots = document.querySelectorAll(".timeline-dot");
+  const timelinePanels = document.querySelectorAll(".timeline-panel");
+
   timelineDots.forEach(dot => {
     dot.addEventListener("click", () => {
       // Collapse all panels
-      document.querySelectorAll(".timeline-panel").forEach(panel => {
-        panel.style.display = "none";
-      });
+      timelinePanels.forEach(panel => panel.style.display = "none");
 
       // Open the corresponding panel
       const entry = dot.closest(".timeline-entry");
       const panel = entry.querySelector(".timeline-panel");
-      panel.style.display = "block";
+      if (panel) {
+        panel.style.display = "block";
 
-      // Scroll into view smoothly
-      entry.scrollIntoView({ behavior: "smooth", block: "start" });
+        // Scroll entry into view smoothly
+        entry.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     });
   });
 
-  // Close button
+  // -------------------------
+  // Close panel buttons
+  // -------------------------
   const panelCloses = document.querySelectorAll(".panel-close");
   panelCloses.forEach(btn => {
     btn.addEventListener("click", () => {
-      btn.closest(".timeline-panel").style.display = "none";
+      const panel = btn.closest(".timeline-panel");
+      if (panel) panel.style.display = "none";
     });
   });
+
+  // -------------------------
+  // Lightbox functionality
+  // -------------------------
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  const lightboxClose = document.querySelector(".lightbox-close");
+  const lightboxTriggers = document.querySelectorAll(".lightbox-trigger");
+
+  if (lightbox && lightboxImg && lightboxClose) {
+    // Open lightbox
+    lightboxTriggers.forEach(img => {
+      img.addEventListener("click", () => {
+        lightbox.style.display = "flex";
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt || "";
+      });
+    });
+
+    // Close button
+    lightboxClose.addEventListener("click", () => {
+      lightbox.style.display = "none";
+      lightboxImg.src = "";
+      lightboxImg.alt = "";
+    });
+
+    // Click outside image to close
+    lightbox.addEventListener("click", e => {
+      if (e.target === lightbox) {
+        lightbox.style.display = "none";
+        lightboxImg.src = "";
+        lightboxImg.alt = "";
+      }
+    });
+  }
 });

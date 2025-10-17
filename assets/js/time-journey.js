@@ -1,23 +1,46 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // -------------------------
-  // Elements
-  // -------------------------
-  const timelineDots = document.querySelectorAll(".timeline-dot");
-  const timelineEntries = document.querySelectorAll(".timeline-entry");
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxClose = document.querySelector(".lightbox-close");
 
+  if (!lightbox || !lightboxImg || !lightboxClose) return;
+
   // -------------------------
-  // Utility: clear active dot
+  // Event delegation for lightbox
   // -------------------------
+  document.querySelector(".timeline-container").addEventListener("click", function(e) {
+    const img = e.target.closest(".lightbox-trigger");
+    if (!img) return; // Not a lightbox image
+    lightbox.style.display = "flex";
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt || "";
+  });
+
+  // Close lightbox
+  lightboxClose.addEventListener("click", () => {
+    lightbox.style.display = "none";
+    lightboxImg.src = "";
+    lightboxImg.alt = "";
+  });
+
+  lightbox.addEventListener("click", e => {
+    if (e.target === lightbox) {
+      lightbox.style.display = "none";
+      lightboxImg.src = "";
+      lightboxImg.alt = "";
+    }
+  });
+
+  // -------------------------
+  // Timeline panel toggle
+  // -------------------------
+  const timelineDots = document.querySelectorAll(".timeline-dot");
+  const timelineEntries = document.querySelectorAll(".timeline-entry");
+
   function clearActiveDots() {
     timelineDots.forEach(dot => dot.classList.remove("active-dot"));
   }
 
-  // -------------------------
-  // Timeline dot click: toggle panel
-  // -------------------------
   timelineDots.forEach(dot => {
     dot.addEventListener("click", () => {
       const entry = dot.closest(".timeline-entry");
@@ -26,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       const isOpen = panel.style.display === "block";
 
-      // Close all panels first
+      // Close all panels
       timelineEntries.forEach(e => {
         const p = e.querySelector(".timeline-panel");
         if (p) p.style.display = "none";
@@ -34,7 +57,6 @@ document.addEventListener("DOMContentLoaded", function() {
       clearActiveDots();
 
       if (!isOpen) {
-        // Open clicked panel
         panel.style.display = "block";
         dot.classList.add("active-dot");
         entry.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -42,9 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  // -------------------------
   // Panel close buttons
-  // -------------------------
   const panelCloses = document.querySelectorAll(".panel-close");
   panelCloses.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -55,47 +75,4 @@ document.addEventListener("DOMContentLoaded", function() {
       if (dot) dot.classList.remove("active-dot");
     });
   });
-
-  // -------------------------
-  // Lightbox: open images
-  // -------------------------
-  function attachLightboxTriggers() {
-    const triggers = document.querySelectorAll(".lightbox-trigger");
-    triggers.forEach(img => {
-      if (!img.dataset.listener) {
-        img.addEventListener("click", () => {
-          if (!lightbox || !lightboxImg) return;
-          lightbox.style.display = "flex";
-          lightboxImg.src = img.src;
-          lightboxImg.alt = img.alt || "";
-        });
-        img.dataset.listener = "true";
-      }
-    });
-  }
-
-  // Attach initially
-  attachLightboxTriggers();
-
-  // Reattach whenever a panel is opened
-  timelineDots.forEach(dot => {
-    dot.addEventListener("click", attachLightboxTriggers);
-  });
-
-  // Close lightbox
-  if (lightbox && lightboxClose && lightboxImg) {
-    lightboxClose.addEventListener("click", () => {
-      lightbox.style.display = "none";
-      lightboxImg.src = "";
-      lightboxImg.alt = "";
-    });
-
-    lightbox.addEventListener("click", e => {
-      if (e.target === lightbox) {
-        lightbox.style.display = "none";
-        lightboxImg.src = "";
-        lightboxImg.alt = "";
-      }
-    });
-  }
 });

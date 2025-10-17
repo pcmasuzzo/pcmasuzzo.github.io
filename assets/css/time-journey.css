@@ -35,11 +35,11 @@
   flex-shrink: 0;
   margin-right: 20px;
   margin-top: 5px;
-  cursor: pointer; /* indicate it’s clickable */
+  cursor: pointer; 
 }
 
 .timeline-dot.active-dot {
-  background: #3fd09b; /* or any highlight color */
+  background: #009d8a; 
   transform: scale(1.3);
   transition: transform 0.2s, background 0.2s;
 }
@@ -54,7 +54,7 @@
 }
 
 .timeline-panel {
-  background: #f4f4f4;
+  background: #eee8a9;
   padding: 15px;
   border-radius: 8px;
   display: none; /* hide panels initially */

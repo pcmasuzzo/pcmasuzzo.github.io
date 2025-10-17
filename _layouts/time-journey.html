@@ -1,22 +1,22 @@
+<!-- vscode-disable-next-line html-validation -->
 <div class="timeline-container">
-  
-<div class="timeline">
-    {% assign first_date = site.data.time-journey.first.date | date: "%s" %}
-    {% assign last_date = site.data.time-journey.last.date | date: "%s" %}
+  <div class="timeline">
+    {% assign first_date = site.data["time-journey"].first.date | date: "%s" %}
+    {% assign last_date = site.data["time-journey"].last.date | date: "%s" %}
     {% assign total_range = last_date | minus: first_date %}
-    
-    {% for entry in site.data.time-journey %}
+
+    {% for entry in site.data["time-journey"] %}
       {% assign current_date = entry.date | date: "%s" %}
       {% assign days_from_start = current_date | minus: first_date %}
       {% assign position_percent = days_from_start | times: 100.0 | divided_by: total_range %}
-      
+
       <div class="timeline-entry" 
            data-date="{{ entry.date }}"
            data-events='{{ entry.events | jsonify }}'
            style="margin-top: {{ position_percent }}%;">
         <div class="timeline-dot"></div>
         <div class="timeline-date">{{ entry.date | date: "%b %d, %Y" }}</div>
-        
+
         <div class="timeline-panel">
           <div class="panel-header">
             <h2>{{ entry.date | date: "%B %d, %Y" }}</h2>
@@ -27,21 +27,23 @@
               <div class="event-block">
                 <h3>{{ event.title }}</h3>
                 <p class="event-description">{{ event.description }}</p>
+
                 {% if event.notes %}
                   <p class="event-notes"><em>{{ event.notes }}</em></p>
                 {% endif %}
+
                 {% if event.images %}
                   <div class="event-images">
                     {% for image in event.images %}
                       <img src="{{ '/assets/images/cancer/time-journey/' | append: event.folder | append: '/' | append: image | relative_url }}" 
                            alt="{{ event.title }}" 
-                           loading="lazy">
+                           loading="lazy" />
                     {% endfor %}
                   </div>
                 {% endif %}
               </div>
               {% unless forloop.last %}
-                <hr class="event-separator">
+                <hr class="event-separator" />
               {% endunless %}
             {% endfor %}
           </div>
@@ -54,5 +56,5 @@
 <!-- Lightbox -->
 <div class="lightbox" id="lightbox">
   <button class="lightbox-close">&times;</button>
-  <img src="" alt="" id="lightbox-img">
+  <img src="" alt="" id="lightbox-img" />
 </div>

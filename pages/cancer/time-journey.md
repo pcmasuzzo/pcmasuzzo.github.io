@@ -6,7 +6,7 @@ title: "time travel"
 permalink: /pages/cancer/time-journey/
 ---
 
-### traveling back in time
+### time journey
 
 <div class="timeline-container">
   
@@ -26,8 +26,43 @@ permalink: /pages/cancer/time-journey/
            style="margin-top: {{ position_percent }}%;">
         <div class="timeline-dot"></div>
         <div class="timeline-date">{{ entry.date | date: "%b %d, %Y" }}</div>
+        
+        <div class="timeline-panel">
+          <div class="panel-header">
+            <h2>{{ entry.date | date: "%B %d, %Y" }}</h2>
+            <button class="panel-close">&times;</button>
+          </div>
+          <div class="panel-content">
+            {% for event in entry.events %}
+              <div class="event-block">
+                <h3>{{ event.title }}</h3>
+                <p class="event-description">{{ event.description }}</p>
+                {% if event.notes %}
+                  <p class="event-notes"><em>{{ event.notes }}</em></p>
+                {% endif %}
+                {% if event.images %}
+                  <div class="event-images">
+                    {% for image in event.images %}
+                      <img src="{{ '/assets/Images/cancer/timeline/' | append: event.folder | append: '/' | append: image | relative_url }}" 
+                           alt="{{ event.title }}" 
+                           loading="lazy">
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+              {% unless forloop.last %}
+                <hr class="event-separator">
+              {% endunless %}
+            {% endfor %}
+          </div>
+        </div>
       </div>
     {% endfor %}
   </div>
-  
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">&times;</button>
+  <img src="" alt="" id="lightbox-img">
 </div>

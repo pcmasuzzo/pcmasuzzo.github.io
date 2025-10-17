@@ -1,29 +1,44 @@
 .timeline-container {
-  position: relative;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  position: relative;
 }
 
 .timeline {
   position: relative;
-  border-left: 3px solid #3498db;
-  padding-left: 40px;
+  padding-left: 50px;
+}
+
+/* Vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #3498db;
 }
 
 .timeline-entry {
-  position: relative;
-  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
 }
 
 .timeline-dot {
-  position: absolute;
-  left: -10px;
-  top: 0;
   width: 20px;
   height: 20px;
   background: #3498db;
   border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 20px;
+  margin-top: 5px;
+  cursor: pointer; /* indicate it’s clickable */
+}
+.timeline-content {
+  flex: 1;
 }
 
 .timeline-date {
@@ -35,7 +50,7 @@
   background: #f4f4f4;
   padding: 15px;
   border-radius: 8px;
-  position: relative;
+  display: none; /* hide panels initially */
 }
 
 .panel-header {

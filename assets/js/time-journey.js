@@ -28,6 +28,25 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Panel toggle
+  const timelineDots = document.querySelectorAll(".timeline-dot");
+  timelineDots.forEach(dot => {
+    dot.addEventListener("click", () => {
+      // Collapse all panels
+      document.querySelectorAll(".timeline-panel").forEach(panel => {
+        panel.style.display = "none";
+      });
+
+      // Open the corresponding panel
+      const entry = dot.closest(".timeline-entry");
+      const panel = entry.querySelector(".timeline-panel");
+      panel.style.display = "block";
+
+      // Scroll into view smoothly
+      entry.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
+  // Close button
   const panelCloses = document.querySelectorAll(".panel-close");
   panelCloses.forEach(btn => {
     btn.addEventListener("click", () => {

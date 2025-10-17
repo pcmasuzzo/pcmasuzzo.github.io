@@ -18,27 +18,31 @@ layout: default
             <div class="panel-content">
               {% for event in entry.events %}
                 <div class="event-block">
-                  <h3>{{ event.title }}</h3>
-                  <p class="event-description">{{ event.description }}</p>
+                  <div class="event-flex">
+                    {% if event.images %}
+                      <div class="event-images">
+                        {% for image in event.images %}
+                          <img src="{{ '/assets/images/cancer/time-journey/' | append: event.folder | append: '/' | append: image | relative_url }}" 
+                               alt="{{ event.title }}" 
+                               class="lightbox-trigger"
+                               loading="lazy" />
+                        {% endfor %}
+                      </div>
+                    {% endif %}
 
-                  {% if event.notes %}
-                    <p class="event-notes"><em>{{ event.notes }}</em></p>
-                  {% endif %}
+                    <div class="event-description-container">
+                      <h3>{{ event.title }}</h3>
+                      <p class="event-description">{{ event.description }}</p>
 
-                  {% if event.images %}
-                    <div class="event-images">
-                      {% for image in event.images %}
-                        <img src="{{ '/assets/images/cancer/time-journey/' | append: event.folder | append: '/' | append: image | relative_url }}" 
-                             alt="{{ event.title }}" 
-                             class="lightbox-trigger"
-                             loading="lazy" />
-                      {% endfor %}
+                      {% if event.notes %}
+                        <p class="event-notes"><em>{{ event.notes }}</em></p>
+                      {% endif %}
                     </div>
-                  {% endif %}
+                  </div>
+                  {% unless forloop.last %}
+                    <hr class="event-separator" />
+                  {% endunless %}
                 </div>
-                {% unless forloop.last %}
-                  <hr class="event-separator" />
-                {% endunless %}
               {% endfor %}
             </div>
           </div>

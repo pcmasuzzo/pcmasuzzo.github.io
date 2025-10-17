@@ -1,11 +1,11 @@
 <div class="timeline-container">
   
 <div class="timeline">
-    {% assign first_date = site.data.timeline.first.date | date: "%s" %}
-    {% assign last_date = site.data.timeline.last.date | date: "%s" %}
+    {% assign first_date = site.data.time-journey.first.date | date: "%s" %}
+    {% assign last_date = site.data.time-journey.last.date | date: "%s" %}
     {% assign total_range = last_date | minus: first_date %}
     
-    {% for entry in site.data.timeline %}
+    {% for entry in site.data.time-journey %}
       {% assign current_date = entry.date | date: "%s" %}
       {% assign days_from_start = current_date | minus: first_date %}
       {% assign position_percent = days_from_start | times: 100.0 | divided_by: total_range %}
@@ -33,7 +33,7 @@
                 {% if event.images %}
                   <div class="event-images">
                     {% for image in event.images %}
-                      <img src="{{ '/assets/Images/cancer/timeline/' | append: event.folder | append: '/' | append: image | relative_url }}" 
+                      <img src="{{ '/assets/images/cancer/time-journey/' | append: event.folder | append: '/' | append: image | relative_url }}" 
                            alt="{{ event.title }}" 
                            loading="lazy">
                     {% endfor %}

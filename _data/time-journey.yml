@@ -2,7 +2,7 @@
   events:
     - title: "first echography"
       folder: "2023-10-17"
-      description: ""
+      description: "the radiologist didn't like what they saw, and asked me immediately if they could perform a biopsy"
       notes: ""
       images: ["scan1.jpg", "scan2.jpg"]
 

@@ -10,12 +10,14 @@ layout: default
 
     {% for entry in site.data["time-journey"] %}
       {% assign current_date = entry.date | date: "%s" %}
-      {% assign days_from_start = current_date | minus: first_date %}
+      {% assign seconds_from_start = current_date | minus: first_date %}
+      {% assign margin_top = seconds_from_start | divided_by: total_range | times: 1000 %} <!-- scale factor -->
+
       <div class="timeline-entry"
-        data-date="{{ entry.date }}"
-        data-events='{{ entry.events | jsonify }}'
-        style="margin-top: {{ forloop.index0 | times: 80 }}px;">
-      
+           data-date="{{ entry.date }}"
+           data-events='{{ entry.events | jsonify }}'
+           style="margin-top: {{ margin_top }}px;">
+        
         <div class="timeline-dot"></div>
         <div class="timeline-date">{{ entry.date | date: "%b %d, %Y" }}</div>
 
@@ -39,6 +41,7 @@ layout: default
                     {% for image in event.images %}
                       <img src="{{ '/assets/images/cancer/time-journey/' | append: event.folder | append: '/' | append: image | relative_url }}" 
                            alt="{{ event.title }}" 
+                           class="lightbox-trigger"
                            loading="lazy" />
                     {% endfor %}
                   </div>

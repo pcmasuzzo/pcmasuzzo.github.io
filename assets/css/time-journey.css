@@ -57,7 +57,18 @@
   background: #eee8a9;
   padding: 15px;
   border-radius: 8px;
-  display: none; /* hidden by default */
+
+  /* Animation setup */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  opacity: 0;
+}
+
+.timeline-panel.open {
+  max-height: 1000px; /* large enough to fit content */
+  padding: 15px;
+  opacity: 1;
 }
 
 .panel-header {

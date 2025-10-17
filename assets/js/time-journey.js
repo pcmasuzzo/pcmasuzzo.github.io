@@ -6,12 +6,15 @@ document.addEventListener("DOMContentLoaded", function() {
   const lightboxClose = document.querySelector(".lightbox-close");
 
   // -------------------------
-  // Timeline dot toggle
+  // Utility: clear active dot
   // -------------------------
   function clearActiveDots() {
     timelineDots.forEach(dot => dot.classList.remove("active-dot"));
   }
 
+  // -------------------------
+  // Timeline dot toggle panels
+  // -------------------------
   timelineDots.forEach(dot => {
     dot.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -19,17 +22,17 @@ document.addEventListener("DOMContentLoaded", function() {
       const panel = entry.querySelector(".timeline-panel");
       if (!panel) return;
 
-      const isOpen = panel.style.display === "block";
+      const isOpen = panel.classList.contains("open");
 
       // Close all panels
       timelineEntries.forEach(e => {
         const p = e.querySelector(".timeline-panel");
-        if (p) p.style.display = "none";
+        if (p) p.classList.remove("open");
       });
       clearActiveDots();
 
       if (!isOpen) {
-        panel.style.display = "block";
+        panel.classList.add("open");
         dot.classList.add("active-dot");
         entry.scrollIntoView({ behavior: "smooth", block: "start" });
       }
@@ -43,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
   panelCloses.forEach(btn => {
     btn.addEventListener("click", () => {
       const panel = btn.closest(".timeline-panel");
-      if (panel) panel.style.display = "none";
+      if (panel) panel.classList.remove("open");
 
       const dot = btn.closest(".timeline-entry").querySelector(".timeline-dot");
       if (dot) dot.classList.remove("active-dot");

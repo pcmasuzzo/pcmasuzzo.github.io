@@ -11,7 +11,9 @@
         The doctor asked me why I went alone for a check of this entity.
         Well, I didn't know better, but there was my first learned lesson:
         **if you can have somebody with you during medical examinations, bring them along**
-      notes: ""
+      notes: >
+        The files I chose for this day are two scans from the echography, they both _clearly_
+        show the lesion; the second picture also shows the measurements the radiologist took.
       images: ["scan1.jpg", "scan2.jpg"]
 
 - date: 2023-10-20

@@ -118,6 +118,14 @@
   min-width: 150px;
 }
 
+.event-description {
+  font-size: 0.8em; 
+}
+
+.event-notes {
+  font-size: 0.8em;
+}
+
 .event-separator {
   border: 0;
   border-top: 1px solid #ccc;

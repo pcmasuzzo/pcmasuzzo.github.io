@@ -36,10 +36,10 @@ layout: default
 
                     <div class="event-description-container">
                       <h3>{{ event.title }}</h3>
-                      <p class="event-description">{{ event.description }}</p>
+                      <div class="event-description">{{ event.description | markdownify }}</div>
 
                       {% if event.notes %}
-                        <p class="event-notes"><em>{{ event.notes }}</em></p>
+                        <div class="event-notes"><em>{{ event.notes | markdownify }}</em></div>
                       {% endif %}
                     </div>
                   </div>

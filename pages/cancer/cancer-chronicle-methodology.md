@@ -1,10 +1,12 @@
 ---
 layout: default
-title: "time journey: methodology"
-permalink: /pages/cancer/time-journey-methodology/
+title: "my cancer chronicle: methodology"
+permalink: /pages/cancer/cancer-chronicle-methodology/
 ---
 
-This page illustrates a bit how I gathered the data presented in the [cancer journey timeline](/pages/cancer/time-journey/).
+### my cancer chronicle: methodology 
+
+This page illustrates a bit how I gathered the data presented in the [cancer journey timeline](/pages/cancer/cancer-chronicle/).
 As I mention in [this other page](/pages/cancer/blood-data/), in Flanders, Belgium - where I live - patients can have access to their medical data through a **digital collaboration platform** called [CoZo](https://www.cozo.be/). Different types of data can be found there:
 - blood analysis results, usually in pdf files
 - letters of referrals from doctors

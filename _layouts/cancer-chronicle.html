@@ -8,7 +8,7 @@ layout: default
 
 <div class="timeline-container">
   <div class="timeline">
-    {% for entry in site.data["time-journey"] %}
+    {% for entry in site.data["cancer-chronicle"] %}
       <div class="timeline-entry">
         <div class="timeline-dot"></div>
         <div class="timeline-content">
@@ -26,7 +26,7 @@ layout: default
                     {% if event.images %}
                       <div class="event-images">
                         {% for image in event.images %}
-                          <img src="{{ '/assets/images/cancer/time-journey/' | append: event.folder | append: '/' | append: image | relative_url }}" 
+                          <img src="{{ '/assets/images/cancer/cancer-chronicle/' | append: event.folder | append: '/' | append: image | relative_url }}" 
                                alt="{{ event.title }}" 
                                class="lightbox-trigger"
                                loading="lazy" />

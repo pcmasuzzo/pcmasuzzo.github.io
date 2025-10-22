@@ -12,7 +12,7 @@ I have previously written [here](https://runningoutofshrimp.wordpress.com/) and 
 I honestly have absolutely no idea. Alright, maybe a little bit.
 
 - **[newsletter](/pages/newsletter/)**: I write on [substack](https://paolamasuzzo.substack.com/), though mostly in italian
-- **[projects](/pages/projects/)**: sometimes I do smi-artistic things (blushing profoundly)
+- **[projects](/pages/projects/)**: sometimes I do semi-artistic things (blushing profoundly)
 - **[about](/pages/about/)**: the stuff I come up about myself; the bits I think are worth sharing
 
 ---

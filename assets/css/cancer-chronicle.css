@@ -88,23 +88,24 @@
 
 .event-flex {
   display: flex;
-  align-items: flex-start;
-  gap: 15px; /* space between images and text */
-  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  flex-direction: column;
+  gap: 15px;
 }
 
 .event-images {
   display: flex;
-  flex-direction: row; /* stack images vertically, can be row if you prefer */
-  flex-shrink: 0; /* don't shrink images container */
+  flex-direction: row;
+  gap: 8px;
+  overflow-x: auto;
 }
-
 .event-images img {
-  max-width: 120px; /* or any preferred size */
+  height: 200px;
+  width: auto;
   margin-bottom: 8px;
   cursor: pointer;
   border-radius: 5px;
   transition: transform 0.2s;
+  flex-shrink: 0;
 }
 
 .event-images img:hover {
@@ -112,12 +113,12 @@
 }
 
 .event-description-container {
-  flex: 1; 
+  flex: 1;
   min-width: 150px;
 }
 
 .event-description {
-  font-size: 0.6em; 
+  font-size: 0.6em;
 }
 
 .event-notes {
@@ -129,7 +130,6 @@
   border-top: 1px solid #ccc;
   margin: 10px 0;
 }
-
 
 /* Lightbox */
 .lightbox {
@@ -168,7 +168,7 @@
   }
 
   .event-images {
-    flex-direction: row;  /* show images horizontally if many */
+    flex-direction: row;
     overflow-x: auto;
     gap: 10px;
   }

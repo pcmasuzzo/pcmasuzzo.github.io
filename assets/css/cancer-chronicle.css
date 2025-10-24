@@ -64,6 +64,7 @@
 }
 
 .timeline-panel.open {
+  max-height: none;
   padding: 15px;
   opacity: 1;
 }

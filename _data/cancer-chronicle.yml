@@ -111,10 +111,16 @@
        The 3 images I selected from this exam are pretty random:
        I chose the ones that looked the funniest to me.
       images: ["scan3.jpg", "scan4.jpg", "scan5.jpg"]
-    - title: ""
+    - title: "first magnetic resonance"
       folder: "2023-10-27"
       description: >
-       
+       To close off this day, I also did a magnetic resonance imaging (MRI) exam with a contrast medium.
+       The question to answer here was mainly: **was my tumor a solitary lesion?
+       or part of a bigger, scattered group? and were my axillary lymph nodes healthy or not?**
+       This is _the_ imaging modality for dense breast imaging: it's also, unfortunately, extremely expensive. 
       notes: >
-       
-      images: []
+       The doctors panicked here a little bit, as the MRI showed weird inflammatory activities around my 
+       axillary zones: it turned out this was due to the double shots of vaccine I had 48 hours before
+       (both for COVID and for the seasonal flu). Admittedly not a great timing, but I needed to help my
+       immune system as fast as possible before starting chemotherapy.
+      images: ["scan6.jpg"]

@@ -87,17 +87,34 @@
 
 - date: 2023-10-27
   events:
+    - title: "chest x-ray"
+      folder: "2023-10-27"
+      description: >
+       A few things happened on October 27th 2023.
+       
+       I had a chest radiology exam, which showed that **no pulmonary lesions** were present or suspected.
+       Another piece of the puzzle falling to place.
+      notes: >
+       I included the two x-ray images, along with a recap of the protocol they used for the exam.
+       I will be honest, I don't understand it (all), but I couldn't help but thinking that this is data
+       that plays a crucial role: a different protocol might show things differently?
+       more of it, less? I don't know.
+      images: ["scan1.jpg", "scan2.jpg", "protocol.jpg"]
+    - title: "ultrasound liver, gallbladder, bile duct"
+      folder: "2023-10-27"
+      description: >
+       On the same day, I also had an abdomen ultrasound of my liver, gallbladder, and bile duct, which
+       together can paint a pretty accurate status of your hepatic health - or lack thereof.
+      notes: >
+       Like with any ultrasound exam carried over by a physician, the visit was pretty painless
+       and I got the results on the spot: everything looked pretty normal.
+       The 3 images I selected from this exam are pretty random:
+       I chose the ones that looked the funniest to me.
+      images: ["scan3.jpg", "scan4.jpg", "scan5.jpg"]
     - title: ""
       folder: "2023-10-27"
       description: >
        
-      notes: 
+      notes: >
        
       images: []
-
-- date: 2023-10-30
-  events:
-    - title: ""
-      folder: "2023-10-23"
-      description: ""
-      notes: ""

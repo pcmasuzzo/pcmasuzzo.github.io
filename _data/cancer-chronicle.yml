@@ -26,7 +26,6 @@
        I had never done this exam before, and it was very painful, especially because my breast 
        was still suffering from the biopsy. But a mammography can highlight things that an
        echography cannot, so it was necessary.  
-       
        In the meantime, the results of my biopsy came in, and there was no doubt:  
        "**it's cancer, a breast carcinoma, and unfortunately a triple negative one**", said the doctor.
       notes: > 
@@ -41,8 +40,7 @@
       description: >
        The gynecologist explained the therapy plan and the additional exams that needed to happen
        as soon as possible. I was not alone, this time around, and I am forever grateful about it: 
-       I didn't understand all of it, to be honest, too caught up in a whirlwind of thoughts, fears, questions.
-       
+       I didn't understand all of it, to be honest, too caught up in a whirlwind of thoughts, fears, questions.  
        I was sent to the breast clinic, where a breast nurse was ready to talk to me. 
        I was given a folder and a box: everything I needed to know was in there. 
        I just couldn't stop crying. 
@@ -58,38 +56,44 @@
       description: >
        On October 23rd 2023 a series of medical exams started for me. The overall goal was to exclude
        cancer metastases in my body and to understand a bit better the general status of the disease.
-
-       I started with a bone scan scintigraphy. It went down more or less like this:
+       I started with a **bone scan scintigraphy**. It went down more or less like this:  
        I was injected a radioactive substance, then sent home for a few hours,
        where I was allowed to eat and I had to drink a lot of water: the more, the better.
        For the exam to take place, the bladder needs to be empty (a full bladder can obscure
        the pelvis and surrounding pelvic bones), so they asked me to pee right before getting on the table.
        The exam lasted around 45 minutes, which seemed an eternity as in the middle of it I realized I had
        to pee again, and I obviously couldn't. Also, the camera moved very very close to my face without touching
-       it: overall, an horrible experience.
-
+       it: overall, an horrible experience.  
        A few days later I had the results: the medical report stated that there were
        "**no arguments for bone metastases**".
       notes: >
-       I remember the technician in the room telling me to be strong, and asking me to try and focus and 
-       not piss myself on the table (because apparently this can happen). They said something like:
-       
-       "there's no shame in it, but I really don't want you to have to do this all over again.""
+       You can see some points in my body lighting up, but apparently this was not related to cancer. 
+       Fun fact: I remember the technician in the room asking me to try and focus and 
+       not piss myself on the table (because apparently this can happen). They said something like:       
+       "there's no shame in it, but I really don't want you to have to do this all over again."
       images: ["scan1.jpg", "scan2.jpg", "scan3.jpg"]
-
-- date: 2023-10-24
-  events:
-    - title: ""
+    - title: "multidisciplinary oncology consultation"
       folder: "2023-10-23"
-      description: ""
-      notes: ""
+      description: >
+       In the meantime, the multidisciplinary oncology consultation took place at the hospital.
+       Radiologists, oncologists, radiotherapists, gynecologists, they all sat together to discuss, 
+       amongst other, also my case.  
+       _what was the verdict? what therapy plan they were going to propose to me?_
+       It's all in a letter which I translated to English, redacting privacy information and trimming
+       it down to the essential core. Believe it or not: **my entire future depended on this plan**.
+      notes: >
+       Please note I have not translated this very well. I don't need to, and I don't want to.
+      images: ["moc.jpg"] 
 
 - date: 2023-10-27
   events:
     - title: ""
-      folder: "2023-10-23"
-      description: ""
-      notes: ""
+      folder: "2023-10-27"
+      description: >
+       
+      notes: 
+       
+      images: []
 
 - date: 2023-10-30
   events:

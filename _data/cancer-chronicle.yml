@@ -29,8 +29,9 @@
        "_it's cancer, a breast carcinoma, and unfortunately a triple negative one_", said the doctor.
       notes: > 
        The data I chose for this event are the four scans of the mammography and a revised version
-       of the biopsy results.
-      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg"]
+       of the biopsy results. The biopsy analysis started on 2023-10-17 at 5:50pm, and it kept being
+       updated until 2023-11-01.
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy.jpg"]
     - title: "first chat with a breast nurse"
       folder: "2023-10-20"
       description: >
@@ -41,7 +42,7 @@
        I was given a folder and a box: everything I needed to know was in there. 
        I just couldn't stop crying. 
       notes: >
-       There was a book inside the box. A box on living with and after breast cancer.
+       There was a book inside the box. A book on living with and after breast cancer.
        I have read it all. Back and forth. I still have it at home, in the living room library.
       images: ["book.jpg"]
 

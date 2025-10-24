@@ -64,7 +64,6 @@
 }
 
 .timeline-panel.open {
-  max-height: 1000px; /* large enough to fit content */
   padding: 15px;
   opacity: 1;
 }

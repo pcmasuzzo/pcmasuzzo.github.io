@@ -33,7 +33,9 @@
        The data I chose for this event are the four scans of the mammography and a revised version
        of the biopsy results. The biopsy analysis started on 2023-10-17 at 5:50pm, and it kept being
        updated until 2023-11-01. I have highlighted in red the medical decisions (_besluit_, in Dutch). 
-      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy1.jpg", "biopsy2.jpg", "biopsy3.jpg"]
+       At the end you'll also find a single value, the level of the CA 15-3 tumor marker in my blood.
+       Keep it in mind: it will come back later on.
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy1.jpg", "biopsy2.jpg", "biopsy3.jpg", "marker.jpg"]
     - title: "first chat with a breast nurse"
       folder: "2023-10-20"
       description: >
@@ -51,10 +53,29 @@
 
 - date: 2023-10-23
   events:
-    - title: ""
+    - title: "bone scan scintigraphy "
       folder: "2023-10-23"
-      description: ""
-      notes: ""
+      description: >
+       On October 23rd 2023 a series of medical exams started for me. The overall goal was to exclude
+       cancer metastases in my body and to understand a bit better the general status of the disease.
+
+       I started with a bone scan scintigraphy. It went down more or less like this:
+       I was injected a radioactive substance, then sent home for a few hours,
+       where I was allowed to eat and I had to drink a lot of water: the more, the better.
+       For the exam to take place, the bladder needs to be empty (a full bladder can obscure
+       the pelvis and surrounding pelvic bones), so they asked me to pee right before getting on the table.
+       The exam lasted around 45 minutes, which seemed an eternity as in the middle of it I realized I had
+       to pee again, and I obviously couldn't. Also, the camera moved very very close to my face without touching
+       it: overall, an horrible experience.
+
+       A few days later I had the results: the medical report stated that there were
+       "**no arguments for bone metastases**".
+      notes: >
+       I remember the technician in the room telling me to be strong, and asking me to try and focus and 
+       not piss myself on the table (because apparently this can happen). They said something like:
+       
+       "there's no shame in it, but I really don't want you to have to do this all over again.""
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg"]
 
 - date: 2023-10-24
   events:

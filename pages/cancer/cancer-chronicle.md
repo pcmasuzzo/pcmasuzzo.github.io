@@ -17,7 +17,7 @@ As part of my [cancer archive](/pages/cancer/cancer-archive/), this is a **perso
 Explore the timeline below to see the pivotal moments that started in October 2023, the month I learned I had triple-negative breast cancer. You can click on each date (each dot) to **uncover the (medical) records from that day**. These files, images, and notes were the individual pieces that formed the larger picture of my diagnosis.
 
 Please note that you cannot scroll these images as you would do in a regular user experience.
-This is on purpose: I want you to open each data point on its own, digest it, if possible, close it, and then move to the next one.
+This is on purpose: I want you to open each data point on its own, digest it, if possible, close it, and then move on to the next one.
 
 If you want to know more about how I gathered all this data, [go over here](/pages/cancer/cancer-chronicle-methodology/) :).
 

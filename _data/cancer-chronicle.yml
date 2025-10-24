@@ -33,7 +33,7 @@
        The data I chose for this event are the four scans of the mammography and a revised version
        of the biopsy results. The biopsy analysis started on 2023-10-17 at 5:50pm, and it kept being
        updated until 2023-11-01.
-      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy.jpg"]
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy1.jpg", "biopsy2.jpg", "biopsy3.jpg"]
     - title: "first chat with a breast nurse"
       folder: "2023-10-20"
       description: >

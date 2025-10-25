@@ -120,7 +120,27 @@
        This is _the_ imaging modality for dense breast imaging: it's also, unfortunately, extremely expensive. 
       notes: >
        The doctors panicked here a little bit, as the MRI showed weird inflammatory activities around my 
-       axillary zones: it turned out this was due to the double shots of vaccine I had 48 hours before
+       axillary zones: it turned out this was due to the double shots of vaccine I had 24 hours before
        (both for COVID and for the seasonal flu). Admittedly not a great timing, but I needed to help my
        immune system as fast as possible before starting chemotherapy.
-      images: ["scan6.jpg"]
+      images: ["scan6.jpg", "scan7.jpg"]
+
+- date: 2023-11-01
+  events:
+    - title: "first appointment with my oncologist"
+      folder: "2023-11-01"
+      description: >
+       On this day I met my oncologist.
+       
+       I think I spent most of the appointment crying, first, and asking questions, afterwards.
+       They explained - again, and in a greater amount of detail - the therapy plan, the steps still required
+       for the actual plan to start, the side effects, the overall goal we were trying to achieve: slow down
+       the cancer and hopefully kill it all.         
+      notes: >
+       I have a full report from this appointment, and a list of questions I asked the doctor along with
+       the answers I received. I am still not sure if I want to share this in great detail, so for now 
+       I just took the report, extracted the very last bit of it and translated it to English.
+       I think you can appreciate that it kind of reflects well the type of oncological patient I have 
+       always been: curious, communicative, participating. The hospital and my doctors have always 
+       respected my autonomy and encouraged me to exercise full agency.
+      images: ["onco.jpg"]

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blood data - paola chiara masuzzo</title>
+    <!-- Link to the main CSS file -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Custom CSS for specific pages -->
+    
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="/" class="logo">paola chiara masuzzo</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/pages/newsletter">newsletter</a></li>
+                    <li><a href="/pages/projects">projects</a></li>
+                    <li><a href="/pages/about">about me</a></li>
+                </ul>
+                <div class="hamburger" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+   
+    <main>
+        <h3 id="whats-in-my-blood">what’s in my blood?</h3>
+<p>The treatment for my breast cancer entailed a detailed and long chemotherapy period, with a cycle of weekly sessions for 12 weeks, and a cycle of biweekly sessions for 8 weeks.</p>
+
+<p>Here is a small schema for it:</p>
+
+<p><img src="/assets/images/cancer/cycles.png" alt="schema of my chemotherapy plan" /></p>
+
+<p>Not a lot of people know this - and I didn’t know before I got sick - but you can’t have chemotherapy <em>if your blood is not good enough</em>. But what does that mean? When it’s your blood good enough to tolerate chemotherapy?</p>
+
+<p>At the hospital, on every chemotherapy day, an entire blood run was performed for me and, amongst other things, two metrics were closely monitored:</p>
+<ul>
+  <li>amount of <strong>hemoglobin</strong>: this has been the weakest point in my body throughout the whole chemotherapy cycles; somehow I stopped producing enough healthy red blood cells, which meant I was often tired, to the verge of continuous fatigue during the hardest weeks of my treatment</li>
+  <li>absolute <strong>neutrophil</strong> count: this is a key metric for every oncological patient; neutrophils are a type of white blood cells crucial for fighting infections, and chemotherapy brings this count lower - less than 1500 means that neutropenia is occurring, and receiving chemotherapy is often considered too risky</li>
+</ul>
+
+<h3 id="my-blood-data">my blood data</h3>
+<p>In Flanders, Belgium - where I live - patients can use a <strong>digital collaboration platform</strong> called CoZo (from Collaboratief Zorgplatform) to access their health data. The platform is actually used also by  healthcare providers and institutions to quickly and securely exchange and share medical data across different parties.</p>
+
+<p>During my chemotherapy, I was interested in understanding how good (or better: how bad) my blood was behaving, so every time I went through a blood run - and when I had the energy, which, admittedly, did not happen a lot - I <strong>downloaded the PDF reports of the lab work</strong> and I <strong>extracted the values of hemoglobin and absolute neutrophil count</strong>.</p>
+
+<p>I did this for the course of several weeks, added the data to Flourish, and made this chart:</p>
+
+<div class="flourish-embed flourish-chart" data-src="visualisation/16495145">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript>
+        <img src="https://public.flourish.studio/visualisation/16495145/thumbnail" width="100%" alt="chart visualization of my blood data" />
+    </noscript>
+</div>
+
+<p>I’ll walk you through some key data points.</p>
+
+<p>The 8th of November 2023 I started chemotherapy.
+My hemoglobin was 12 and a half and my absolute neutrophil count more than 7000. 
+One session of chemotherapy was enough to bring my hemoglobin down to 10.9 and my absolute neutrophil count to a little more than 3000. Damn.</p>
+
+<p>Every time the line at the bottom, the neutrophil one, went below 1500, neutropenia was happening and I had to skip chemotherapy.</p>
+
+<p>Every time the line at the top, the hemoglobin one, was around 8 or below, I had to get a blood transfusion.</p>
+
+<p>Between February and March 2024 I got an infection via my port-a-cath, you can see there my neutrophil count spiking back to 6000: my tiny little body was definitely doing its best to protect me.</p>
+
+<p>The <a href="/data/blood-data.csv">data are here</a> if you want to have a look or perhaps recreate my plot - not sure why you’d want to do that, but you absolutely can. I am looking for a way to transform this plot into something more artsy, a landscape, a road, a collage, I am not sure.</p>
+
+<p>you have an idea? let me know :)</p>
+
+    </main>
+   
+    <footer>
+        <p>&copy; 2025 paola chiara masuzzo. All rights reserved.</p>
+    </footer>
+   
+    <!-- Main menu JavaScript (loads on all pages) -->
+    <script src="/assets/js/menu.js"></script>
+
+    <!-- Custom JS for specific pages -->
+    
+</body>
+</html>

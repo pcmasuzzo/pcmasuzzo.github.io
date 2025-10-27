@@ -34,7 +34,7 @@
        updated until 2023-11-01. I have highlighted in red the medical decisions (_besluit_, in Dutch). 
        At the end you'll also find a single value, the level of the CA 15-3 tumor marker in my blood.
        Keep it in mind: it will come back later on.
-      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy1.jpg", "biopsy2.jpg", "biopsy3.jpg", "marker.jpg"]
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "scan4.jpg", "biopsy1.jpg", "biopsy2.jpg", "biopsy3.jpg", "biopsy4.jpg", "marker.jpg"]
     - title: "first chat with a breast nurse"
       folder: "2023-10-20"
       description: >
@@ -144,3 +144,20 @@
        always been: curious, communicative, participating. The hospital and my doctors have always 
        respected my autonomy and encouraged me to exercise full agency.
       images: ["onco.jpg"]
+
+- date: 2023-11-02
+  events:
+    - title: "cardiological check in preparation of chemotherapy"
+      folder: "2023-11-02"
+      description: >
+       Before starting chemotherapy, we needed to make sure my heart was healthy enough to endure it.
+       So I went to the hospital for a full cardiological exam: an electrocardiogram followed
+       by an echography. We didn't expect anything to show up - have never suffered from cardiological
+       issues - but basically, like with everything, "you never know".             
+      notes: >
+       
+      images: ["ecg.jpg", "scan1.jpg", "scan2.jpg"]
+
+- date: 2023-11-06
+- date: 2023-11-07
+- date: 2023-11-08

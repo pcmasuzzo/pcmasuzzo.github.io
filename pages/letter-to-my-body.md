@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "my cancer (archive)"
-permalink: /pages/cancer/letter-to-my-body/
+permalink: /pages/letter-to-my-body/
 ---
 
 ### letter to my body

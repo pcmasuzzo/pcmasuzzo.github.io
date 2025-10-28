@@ -118,11 +118,21 @@
 }
 
 .event-description {
-  font-size: 0.6em;
+  font-size: 0.95em;
+}
+
+.event-description p {
+  font-size: inherit;
+  margin: 0;
 }
 
 .event-notes {
-  font-size: 0.5em;
+  font-size: 0.85em; 
+}
+
+.event-notes p {
+  font-size: inherit;
+  margin: 0;
 }
 
 .event-separator {

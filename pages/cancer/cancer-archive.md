@@ -25,6 +25,5 @@ Here are some silly little things that kept me floating when I thought I was goi
 - **[what's in my blood](/pages/cancer/blood-data/)**
 - **[how big is my tumor](/pages/cancer/tumor-size/)**
 - **[my chemo pills collage](/pages/cancer/chemo-pills/)**
-- **[letter to my body](/pages/cancer/letter-to-my-body/)**
 - **[my cancer chronicle](/pages/cancer/cancer-chronicle/)**
 

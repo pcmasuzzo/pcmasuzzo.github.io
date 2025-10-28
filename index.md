@@ -17,4 +17,4 @@ I honestly have absolutely no idea. Alright, maybe a little bit.
 
 ---
 
-*thanks for visiting - leave me a message if you'd like to connect*
+*thanks for visiting*

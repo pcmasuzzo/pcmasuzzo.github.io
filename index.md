@@ -17,4 +17,4 @@ I honestly have absolutely no idea. Alright, maybe a little bit.
 
 ---
 
-*thanks for visiting*
+*thanks for visiting - reach out on [bluesky](https://bsky.app/profile/pcmasuzzo.bsky.social) if you'd like to connect*

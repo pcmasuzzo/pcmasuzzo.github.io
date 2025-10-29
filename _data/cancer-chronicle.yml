@@ -58,7 +58,7 @@
        cancer metastases in my body and to understand a bit better the general status of the disease.
        I started with a **bone scan scintigraphy**. It went down more or less like this:  
        I was injected a radioactive substance, then sent home for a few hours,
-       where I was allowed to eat and I had to drink a lot of water: the more, the better.
+       where I was allowed to eat and I had to drink a lot of water, the more, the better.
        For the exam to take place, the bladder needs to be empty (a full bladder can obscure
        the pelvis and surrounding pelvic bones), so they asked me to pee right before getting on the table.
        The exam lasted around 45 minutes, which seemed an eternity as in the middle of it I realized I had
@@ -90,15 +90,14 @@
     - title: "chest x-ray"
       folder: "2023-10-27"
       description: >
-       A few things happened on October 27th 2023.
-       
+       The medical checkups continued, and a few things happened on October 27th.
        I had a chest radiology exam, which showed that **no pulmonary lesions** were present or suspected.
-       Another piece of the puzzle falling to place.
+       Another piece of the puzzle falling into place.
       notes: >
        I included the two x-ray images, along with a recap of the protocol they used for the exam.
        I will be honest, I don't understand it (all), but I couldn't help but thinking that this is data
-       that plays a crucial role: a different protocol might show things differently?
-       more of it, less? I don't know.
+       that plays a crucial role, too: a different protocol might have shown things differently?
+       more of it, less of it?
       images: ["scan1.jpg", "scan2.jpg", "protocol.jpg"]
     - title: "ultrasound liver, gallbladder, bile duct"
       folder: "2023-10-27"
@@ -109,7 +108,7 @@
        Like with any ultrasound exam carried over by a physician, the visit was pretty painless
        and I got the results on the spot: everything looked pretty normal.
        The 3 images I selected from this exam are pretty random:
-       I chose the ones that looked the funniest to me.
+       I chose the ones that looked the funniest to me, but I honestly have no idea what they mean.
       images: ["scan3.jpg", "scan4.jpg", "scan5.jpg"]
     - title: "first magnetic resonance"
       folder: "2023-10-27"
@@ -117,32 +116,35 @@
        To close off this day, I also did a magnetic resonance imaging (MRI) exam with a contrast medium.
        The question to answer here was mainly: **was my tumor a solitary lesion?
        or part of a bigger, scattered group? and were my axillary lymph nodes healthy or not?**
-       This is _the_ imaging modality for dense breast imaging: it's also, unfortunately, extremely expensive. 
+       This is _the_ imaging modality for dense breast imaging: it's also, unfortunately, very expensive. 
       notes: >
        The doctors panicked here a little bit, as the MRI showed weird inflammatory activities around my 
        axillary zones: it turned out this was due to the double shots of vaccine I had 24 hours before
        (both for COVID and for the seasonal flu). Admittedly not a great timing, but I needed to help my
-       immune system as fast as possible before starting chemotherapy.
-      images: ["scan6.jpg", "scan7.jpg"]
+       immune system as fast as possible before starting chemotherapy.  
+       Yes, those up there are my boops. 
+      images: ["scan6.jpg", "scan7.jpg", "scan8.jpg"]
 
 - date: 2023-11-01
   events:
     - title: "first appointment with my oncologist"
       folder: "2023-11-01"
       description: >
-       On this day I met my oncologist.
-       
+       On this day I met my oncologist for the first time.  
+
        I think I spent most of the appointment crying, first, and asking questions, afterwards.
        They explained - again, and in a greater amount of detail - the therapy plan, the steps still required
-       for the actual plan to start, the side effects, the overall goal we were trying to achieve: slow down
-       the cancer and hopefully kill it all.         
+       for the actual plan to start, the side effects, and the overall goal we were trying to achieve: slow down
+       the tumor proliferation, and hopefully kill it all.  
+
+       _You will lose all your hair, and it's going to happen very, very fast._     
       notes: >
        I have a full report from this appointment, and a list of questions I asked the doctor along with
        the answers I received. I am still not sure if I want to share this in great detail, so for now 
        I just took the report, extracted the very last bit of it and translated it to English.
        I think you can appreciate that it kind of reflects well the type of oncological patient I have 
        always been: curious, communicative, participating. The hospital and my doctors have always 
-       respected my autonomy and encouraged me to exercise full agency.
+       respected my autonomy and encouraged me to exercise full agency during my treatment.
       images: ["onco.jpg"]
 
 - date: 2023-11-02
@@ -155,9 +157,51 @@
        by an echography. We didn't expect anything to show up - have never suffered from cardiological
        issues - but basically, like with everything, "you never know".             
       notes: >
-       
+       The echocardiogram is used to highlight the structure, function, and blood flow of the heart.
+       The second image shows a color flow doppler, with in blue the blood that flows from the probe
+       and in red the blood that flows towards it. 
       images: ["ecg.jpg", "scan1.jpg", "scan2.jpg"]
 
 - date: 2023-11-06
+  events:
+    - title: "breast clip insertion"
+      folder: "2023-11-06"
+      description: >
+       At this point of the ordeal we still needed to take care of two things, and both of these 
+       had to do with implanting stuff in my body.  
+       The first thing we inserted was a little clip in my breast, a tiny titanium marker used to pinpoint
+       the exact position of the tumor. If we were going, hopefully, to kill the whole tumor, the
+       cli was going to guide the surgeon find the correct area for removal later on. Furthermore, 
+       the clip was going to be monitored during imaging exams in the course of chemotherapy to understand 
+       changes over time.
+      notes: >
+       This procedure happens with the same principle of a biopsy: a needle is inserted in the breast, but
+       instead of taking sample away, the needle leaves the small clip behind.
+       In the records I have selected from this procedure you can see the lesion in my breast, the long needle
+       inside it, and eventually the clip in the middle of the tumor. 
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg"]
+
 - date: 2023-11-07
+  events:
+    - title: "surgery to implant my port-a-cath"
+      folder: "2023-11-07"
+      description: >
+       The very last thing before chemotherapy could start was the insertion of a port-a-cath in my body.
+       A port is an implantable device that allows long-term central venous access,
+       very useful for administering medications like chemotherapy, for drawing blood, or for
+       providing intravenous fluids.
+       With an implanted port, the medicine goes straight to a central vein, bypassing smaller,
+       peripheral veins, and protecting them from damage.
+      notes: >
+       I received my port-a-cath with local anestesia, and the x-ray I have uploaded for this day shows the
+       port in place during surgery. I have called my port-a-cath **Portia** - very clever, I know.  
+       Two years later it's still in my body. One day I'll bid it goodbye, I think (hope?).
+      images: ["port.jpg"]
+
 - date: 2023-11-08
+  events:
+    - title: "first chemotherapy"
+      folder:
+      description:
+      notes:
+      images:

@@ -193,15 +193,28 @@
        With an implanted port, the medicine goes straight to a central vein, bypassing smaller,
        peripheral veins, and protecting them from damage.
       notes: >
-       I received my port-a-cath with local anestesia, and the x-ray I have uploaded for this day shows the
-       port in place during surgery. I have called my port-a-cath **Portia** - very clever, I know.  
+       I received my port-a-cath with local anestesia: surgery started at 12:32pm and finished at 13:12pm.
+       The x-ray image I have uploaded shows the port in place during surgery.  
+       I have called my port-a-cath **Portia** - very clever, I know.  
+       
        Two years later it's still in my body. One day I'll bid it goodbye, I think (hope?).
       images: ["port.jpg"]
 
 - date: 2023-11-08
   events:
-    - title: "first chemotherapy"
-      folder:
-      description:
-      notes:
-      images:
+    - title: "first chemotherapy session"
+      folder: "2023-11-08"
+      description: >
+       Chemotherapy day finally arrived: the sooner I started, the better, obviously.
+       Not sure what happened on the day, but I fainted while getting ready. The pain from the port surgery,
+       the tiredness, the stress of it all, I just went down on my face.   
+       My oncologist suspected a pneumothorax (a collection of air outside the lung but within
+       the pleural cavity) so I was sent to radiology for some x-rays. 
+      notes: >
+       They checked my lungs during inspiration and expiration: you can clearly see Portia with the catheter
+       getting into my subclavian vein.  
+
+       Luckly enough, I didn't have a pneumothorax, so we went ahead with chemotherapy.  
+       
+       I did 12 sessions of weekly therapy + 4 sessions of biweekly therapy.
+      images: ["scan1.jpg", "scan2.jpg", "scan3.jpg", "protocol.jpg"]

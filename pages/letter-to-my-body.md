@@ -14,7 +14,7 @@ I wrote many letters to my body, I selected this one for this place.
 
 > so go ahead  
 > and love me  
-> while it's still a crime [^1]
+> while it's still a crime[^1]
 
 
 I'm trying to live. And living is a matter made of air, I breathe it through my nostrils, hot and heavy. Living is first and foremost a matter of the body. It's always me and my body, it's still me and my body, we're together, and I can't leave it. I often think that we'll never leave each other again, if not on the threshold of the last step, the step of death.

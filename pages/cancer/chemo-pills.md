@@ -7,7 +7,8 @@ permalink: /pages/cancer/chemo-pills/
 ---
 
 ### oral chemotherapy
-After the first big chemotherapy and a cycle of radiotherapy (my _neoadjuvant_ therapies), I underwent breast surgery to remove my tumor. At this stage, we were hoping for my tumor to be completely gone, or, in other words, for my body to show a full, complete response to the treatment.
+After [six months of chemotherapy](/assets/images/cancer/cycles.png){:target="_blank"}
+and a cycle of radiotherapy (my _neoadjuvant_ therapies), I underwent breast surgery to remove my tumor. At this stage, we were hoping for my tumor to be completely gone, or, in other words, for my body to show a full, complete response to the treatment.
 
 Unfortunately, this was not the case. After surgery, the doctors explained to me that there was still _residual invasive disease_ in my body, which meant my chances for a relapse were too high if we didn't do anything else. 
 
@@ -16,7 +17,7 @@ My oncologist advised an extra six months of oral chemotherapy, and in August 20
 ### two pictures a day
 When I started taking oral chemotherapy, I thought I needed something to help me record the moment, something that would remind me I was going through the extra pain for a reason, in order to survive, to have a real chance at it. 
 
-So I started taking pictures of the pills, two pictures a day for every day of chemotherapy.
+So I started taking pictures of my pills, two pictures a day for every day of chemotherapy.
 I started on August 7th 2024 and finished on January 14th 2025.
 
 Here is a little schema to help you visualize it:
@@ -30,9 +31,9 @@ Here is a little schema to help you visualize it:
 
 **I ended up with 224 pictures, yes**.
 
-I am calling this my _chemo pills collage_, which I discovered is also a pretty visual and intuitive (for me!) way to look back in time (so perhaps I could also call it _chemo pills calendar_?).
+I am calling this _my chemo pills collage_, which I discovered is also a pretty visual and intuitive (at least for me) way to look back in time (so perhaps I could also call it _my chemo pills calendar_?).
 
-I annotated some of the images: you can click the button below to look at some of the _hotspots_ in the collage, and if you hover with your mouse you can see what little memory they unlock!
+I annotated some of the images: you can click the button below to look at some of the _hotspots_ in the collage, and if you hover with your mouse you can see what little memory the picture unlocks[^1]. 
 
 <button id="toggle-hotspots" class="hotspot-toggle-btn">show hotspots</button>
 
@@ -40,11 +41,14 @@ I annotated some of the images: you can click the button below to look at some o
   {% include chemopills-gallery.html %}
 </div>
 
+---
 
 ### 12 hours away
-Based on the photos I took, I was also able to reconstruct the exact timestamps at which I took my medication on each day of chemotherapy. Using these timestamps, I then calculated the time interval between the morning and evening doses for that day.
+From the pictures names (the files names), I was also able to reconstruct the exact timestamps at which I took my medication on each day of chemotherapy. Using these timestamps, I then calculated the time interval between the morning and evening doses for each day.
 
-_Why did this matter?_ At the hospital they told me it was important for me to take the pills with a lot of water and with **roughly 12 hours** between the two moments. Well, I am a sucker for instructions, and the distribution of the time lags shows it!
+This is very simple and you can see how I did it using a small [python script](/scripts/chemopills-hours.py).
+
+_Why did this matter?_ At the hospital they told me it was important for me to take the pills with a lot of water and with **roughly 12 hours** between the two moments. Well, I am a sucker for instructions, and the distribution of the time lags clearly shows it.
 
 <div class="flourish-embed" data-src="visualisation/25494510">
   <script src="https://public.flourish.studio/resources/embed.js"></script>
@@ -55,3 +59,5 @@ _Why did this matter?_ At the hospital they told me it was important for me to t
 
 You can find the [data here](/data/chemopills-hours.csv).
 Not sure what you'd want to do with it, but nevertheless :)
+
+[^1]: this user experience might not be very smooth, but I am not proficient in this, so yeah, tough luck eheh

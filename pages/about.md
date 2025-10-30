@@ -21,4 +21,4 @@ It's my attempt number *I can't even recall*, because every time I try to crysta
 The closest thing I have written to some sort of _self-portrait_ is [this one](https://paolamasuzzo.substack.com/p/self-portrait): I'd love to hear what you think of it.
 
 Well, I hope you enjoy being here!  
-Go to [projects](/pages/projects/) page to see some of the things I am busy with.
+Go to the [projects](/pages/projects/) page to see some of the things I am busy with.

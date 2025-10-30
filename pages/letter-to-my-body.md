@@ -4,22 +4,23 @@ title: "my cancer (archive)"
 permalink: /pages/letter-to-my-body/
 ---
 
-### letter to my body
-Having cancer comes with an unspoken forced cohabitation between you and your body. There can be no escape. During my treatment, and still after, I wrote a lot of letters to my body.  
-I selected this one for my cancer archive. I first published it in italian [here](https://paolamasuzzo.substack.com/p/io-e-te).
+During the treatments for my cancer, I came to terms with a forced cohabitation between me and my body. There could be no escape. Maybe for the first time in my life I realized me and her, her and me, **we were the same thing**.  
 
-Hope you enjoy reading it. 
+I wrote many letters to my body, I selected this one for this place. 
 
---------------------------------------
-<blockquote>
-So go ahead<br>
-And love me while it's still a crime
-</blockquote>
+---
 
-I'm trying to live. And living is a business made of air, I breathe it through my nostrils. Hot and heavy. Living is first and foremost a business of the body. It's always me and my body, it's still me and my body, we're together, and I can't leave it. I often think that we'll never leave each other again, if not on the threshold of the last step, the step of death.
+### you and me
+
+> so go ahead  
+> and love me  
+> while it's still a crime [^1]
+
+
+I'm trying to live. And living is a matter made of air, I breathe it through my nostrils, hot and heavy. Living is first and foremost a matter of the body. It's always me and my body, it's still me and my body, we're together, and I can't leave it. I often think that we'll never leave each other again, if not on the threshold of the last step, the step of death.
 In some trembling moments, when the air gets heavier, there seems to be no room for anything else, for anyone else.
 
-> I am her and she is me.
+> I am her and she is me
 
 We are trying to live.
 
@@ -96,3 +97,7 @@ Tell me that I didn't do everything wrong, tell me that I didn't hurt you too mu
 Just don't ask me for forgiveness, ever, because there is nothing I need to forgive you for.
 
 Paola
+
+---
+
+[^1]: this is from [GMF by John Grant](https://www.youtube.com/watch?v=ekFWPsXXcg0)

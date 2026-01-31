@@ -23,4 +23,4 @@ This is on purpose: I want you to open each data point on its own, digest it, if
 If you want to know more about how I gathered and/or generated this data, [go over here](/pages/cancer/cancer-chronicle-methodology/).
 
 
-#### my cancer chronicle
+#### my cancer chronicle: from diagnosis to treatment

@@ -48,7 +48,7 @@
        There was a book inside the box. A book on living with and after breast cancer.
        I have read it all. Back and forth. I still have it at home, in the living room library.
        Looking back, I am not sure reading it was the best choice for me at the time. Who knows.
-      images: ["book1.jpg", "book2.jpg", "book3.jpg"]
+      images: ["book1.jpeg", "book2.jpeg", "book3.jpeg"]
 
 - date: 2023-10-23
   events:
@@ -61,7 +61,7 @@
        I was injected a radioactive substance, then sent home for a few hours,
        where I was allowed to eat and I had to drink a lot of water, the more, the better.
        For the exam to take place, the bladder needs to be empty (a full bladder can obscure
-       the pelvis and surrounding pelvic bones), so they asked me to pee right before getting on the table.
+       the pelvis and the surrounding pelvic bones), so they asked me to pee right before getting on the table.
        The exam lasted around 45 minutes, which seemed an eternity as in the middle of it I realized I had
        to pee again, and I obviously couldn't. Also, the camera moved very very close to my face without touching
        it: overall, an horrible experience.  
@@ -71,7 +71,8 @@
        You can see some points in my body lighting up, but apparently this was not related to cancer. 
        Fun fact: I remember the technician in the room asking me to try and focus and 
        not piss myself on the table (because apparently this can happen). They said something like:       
-       "there's no shame in it, but I really don't want you to have to do this all over again."
+       "there's no shame in it, but I really don't want you to have to do this all over again." Yeah, I didn't
+       want that either.
       images: ["scan1.jpg", "scan2.jpg", "scan3.jpg"]
     - title: "multidisciplinary oncology consultation"
       folder: "2023-10-23"
@@ -81,7 +82,8 @@
        amongst others, also my case.  
        
        _what was the verdict? what therapy plan they were going to propose to me?_
-       It's all in a letter which I translated to English, redacting privacy information and trimming
+       It's all in a letter that I have summarized and translated to English,
+       redacting privacy information and trimming
        it down to the essential core. Believe it or not: **my entire future depended on this plan**.
       notes: >
        Please note I have not translated this very well. I don't need to, and I don't want to.
@@ -92,11 +94,11 @@
     - title: "chest x-ray"
       folder: "2023-10-27"
       description: >
-       The medical checkups continued, and a few things happened on October 27th.
-       I had a chest radiology exam, which showed that **no pulmonary lesions** were present or suspected.
+       I had a short break of a few days, and the medical checkups resumed on October 27th, when a few things
+       happened. The first of these things was a chest radiology exam, which showed that **no pulmonary lesions** were present or suspected.
        Another piece of the puzzle falling into place.
       notes: >
-       I included the two x-ray images, along with a recap of the protocol they used for the exam.
+       I included here the two x-ray images, along with a recap of the protocol they used for the exam.
        I will be honest, I don't understand it (all), but I couldn't help but thinking that this is data
        that plays a crucial role, too: a different protocol might have shown things differently?
        more of it, less of it?
@@ -108,23 +110,23 @@
        together can paint a pretty accurate status of your hepatic health - or lack thereof.
       notes: >
        Like with any ultrasound exam carried over by a physician, the visit was pretty painless
-       and I got the results on the spot: everything looked pretty normal.
-       The 3 images I selected from this exam are pretty random:
-       I chose the ones that looked the funniest to me, but I honestly have no idea what they mean.
+       and I got the results on the spot: everything looked pretty normal. For this exam, I selected random
+       data: I chose 3 images that looked the funniest to me, but I honestly have no idea what they mean.
       images: ["scan3.jpg", "scan4.jpg", "scan5.jpg"]
     - title: "first magnetic resonance"
       folder: "2023-10-27"
       description: >
        To close off this day, I also did a magnetic resonance imaging (MRI) exam with a contrast medium.
-       The question to answer here was mainly: **was my tumor a solitary lesion?
-       or part of a bigger, scattered group? and were my axillary lymph nodes healthy or not?**
+       The question to answer here was mainly: **is my tumor a solitary lesion?
+       or part of a bigger, scattered group? and how big is it? are my axillary lymph nodes healthy or not?**
        This is _the_ imaging modality for dense breast imaging: it's also, unfortunately, very expensive. 
       notes: >
        The doctors panicked here a little bit, as the MRI showed weird inflammatory activities around my 
        axillary zones: it turned out this was due to the double shots of vaccine I had 24 hours before
        (both for COVID and for the seasonal flu). Admittedly not a great timing, but I needed to help my
        immune system as fast as possible before starting chemotherapy.  
-       Yes, those up there are my boops. 
+       Yes, those up there are my boops as I breathe in and out on the machine. The exam was long,
+       uncomfortable, and loud as hell. 
       images: ["scan6.jpg", "scan7.jpg", "scan8.jpg"]
 
 - date: 2023-11-01
@@ -144,7 +146,7 @@
        I have a full report from this appointment, and a list of questions I asked the doctor along with
        the answers I received. I am still not sure if I want to share this in great detail, so for now 
        I just took the report, extracted the very last bit of it and translated it to English.
-       I think you can appreciate that it kind of reflects well the type of oncological patient I have 
+       I think you can appreciate that it kind of reflects well the type of patient I have 
        always been: curious, communicative, participating. The hospital and my doctors have always 
        respected my autonomy and encouraged me to exercise full agency during my treatment.
       images: ["onco.jpg"]
@@ -156,12 +158,13 @@
       description: >
        Before starting chemotherapy, we needed to make sure my heart was healthy enough to endure it.
        So I went to the hospital for a full cardiological exam: an electrocardiogram followed
-       by an echography. We didn't expect anything to show up - have never suffered from cardiological
+       by an echography. We didn't expect anything to show up - I have never suffered from cardiological
        issues - but basically, like with everything, "you never know".             
       notes: >
-       The echocardiogram is used to highlight the structure, function, and blood flow of the heart.
+       The data for this day are an electrocardiogram on the usual pink paper, and an echocardiogram, which is
+       used to highlight the structure, function, and blood flow of the heart.
        The second image shows a color flow doppler, with in blue the blood that flows from the probe
-       and in red the blood that flows towards it. 
+       and in red the blood that flows towards it. Everything was healthy and ready to sustain chemotherapy.
       images: ["ecg.jpg", "scan1.jpg", "scan2.jpg"]
 
 - date: 2023-11-06
@@ -173,12 +176,12 @@
        had to do with implanting stuff in my body.  
        The first thing we inserted was a little clip in my breast, a tiny titanium marker used to pinpoint
        the exact position of the tumor. If we were going, hopefully, to kill the whole tumor, the
-       cli was going to guide the surgeon find the correct area for removal later on. Furthermore, 
+       clip was going to guide the surgeon find the correct area for removal later on. Furthermore, 
        the clip was going to be monitored during imaging exams in the course of chemotherapy to understand 
        changes over time.
       notes: >
        This procedure happens with the same principle of a biopsy: a needle is inserted in the breast, but
-       instead of taking sample away, the needle leaves the small clip behind.
+       instead of taking tissue material away, the needle leaves the small clip behind.
        In the records I have selected from this procedure you can see the lesion in my breast, the long needle
        inside it, and eventually the clip in the middle of the tumor. 
       images: ["scan1.jpg", "scan2.jpg", "scan3.jpg"]
@@ -195,8 +198,9 @@
        With an implanted port, the medicine goes straight to a central vein, bypassing smaller,
        peripheral veins, and protecting them from damage.
       notes: >
-       I received my port-a-cath with local anestesia: surgery started at 12:32pm and finished at 13:12pm.
-       The x-ray image I have uploaded shows the port in place during surgery.  
+       I received my port-a-cath with local anestesia: surgery started at 12:32pm and finished at 13:12pm
+       on November 7th 2023 (I know this because I have read the surgeon's report).
+       The x-ray image I have uploaded has been taken during surgery and shows the port in place.  
        I have called my port-a-cath **Portia** - very clever, I know.  
        
        Two years later it's still in my body. One day I'll bid it goodbye, I think (hope?).
@@ -207,14 +211,14 @@
     - title: "first chemotherapy session"
       folder: "2023-11-08"
       description: >
-       Chemotherapy day finally arrived: the sooner I started, the better, obviously.
+       Chemotherapy day (finally) arrived: the sooner I started, the better, obviously.
        Not sure what happened on the day, but I fainted while getting ready. The pain from the port surgery,
        the tiredness, the stress of it all, I just went down on my face.   
        My oncologist suspected a pneumothorax (a collection of air outside the lung but within
        the pleural cavity) so I was sent to radiology for some x-rays. 
       notes: >
-       They checked my lungs during inspiration and expiration: you can clearly see Portia with the catheter
-       getting into my subclavian vein.  
+       They checked my lungs during inspiration (first image) and expiration (second image):
+       you can clearly see Portia with the catheter getting into my subclavian vein.  
 
        Luckly enough, I didn't have a pneumothorax, so we went ahead with chemotherapy.  
        
